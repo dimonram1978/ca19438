@@ -1,0 +1,152 @@
+
+.card {
+    background: #f2f6f7;
+    border-radius: 6px;
+    height: 80px;
+    width:200px;
+    padding:12px;
+    margin:12px;
+    filter: drop-shadow(6px 6px 3px #4444dd);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size:16px;
+}
+.card:hover {
+    filter: drop-shadow(6px 6px 3px #6666ff);
+}
+h1 {
+    font: 26px/26px Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 300;
+}
+section.doctors {
+    padding:40px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    font-size:18px;
+}
+.doctor1{
+  display:block;  
+  width:30%;
+  border:1px solid #D2CBBD;   
+}
+
+.doctor1 .blue{
+  padding: 10px;  
+  color: blue;   
+}
+.doctor2{
+  display:block;  
+  width:70%;
+  height1: 20%; 
+  align-items:flex-start;
+  border:1px solid #D2CBBD;  
+}
+
+.zagolovok{
+   display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  padding: 20px;
+  color: blue;
+  font-size:18px; 
+}
+
+.cards-list{
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start; 
+  max-width:1024px;
+  margin:40px auto;
+  padding-top: 50px;
+  border:1px solid #D2CBBD;  
+ 
+}
+
+.doctor4 {
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    font-size:18px;
+}
+
+.doctor6{
+  display:block;  
+  width:35%; 
+  border:1px solid #D2CBBD;  
+}
+.doctor-page {
+    display:block;
+    width:100%;
+}
+.doctor-add-form {
+    display:flex;
+    flex-direction:column;
+}
+.doctor-add-form>* {
+    width:400px;
+    margin:12px;
+    padding:6px;
+    border-radius:6px;
+    min-height:40px;
+    font-size:16px;
+}
+.doctor-add-form>select,.doctor-add-form>input[type=submit] {
+    width:416px;
+}
+.add-buttons {
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    width:100%;
+}
+.add-buttons button {
+    padding:6px 12px;
+    margin:16px;
+    height:32px;
+    border:1px solid #D2CBBD;
+    background-color: #7878eb;
+    color: white;
+    border-radius:6px;
+}
+.add-buttons button:hover {
+    filter: drop-shadow(6px 6px 3px #4444dd);
+
+}
+.procedures{
+  display:block;  
+  width:100%; 
+  border:1px solid #D2CBBD;  
+}
+.procedures .cursiv{
+ font-style: italic;
+}
+.procedures .blue{
+  color: blue;
+}
+.procedures ul {
+	list-style-type: disc;
+}
+
+.cpecs {
+  display:block;  
+  width:35%; 
+  border:1px solid #D2CBBD;  
+}
+.cpecs .blue{
+  color: blue;
+}
+
+.cards-list .doctor_fio {
+  display:block;  
+  background-color: #216bb6;
+  border-radius:6px;
+  border:1px solid #D2CBBD;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
