@@ -1,0 +1,20 @@
+section.doctors {
+    padding:40px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    font-size:18px;
+}
+.doctor1{
+  display:block;  
+  width:30%;
+  border:1px solid #D2CBBD;   
+}
+
+.doctor2{
+  display:block;  
+  width:70%;
+  height1: 20%; 
+  align-items:flex-start;
+  border:1px solid #D2CBBD;  
+}

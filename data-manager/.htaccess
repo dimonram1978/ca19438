@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?path=$1 [L]
+RewriteRule ^([a-zA-Z]+)/([0-9])/$ index.php?action=$1&path=$2 [L]
