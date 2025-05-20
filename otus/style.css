@@ -1,0 +1,22 @@
+section.doctors_tr {
+    padding:40px;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    font-size:18px;
+}
+
+section.doctors_td {
+    padding:40px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+    font-size:18px;
+}
+
+.doctor1{
+  display:block;  
+  width:30%;
+  border:1px solid #D2CBBD;   
+}
+ 
