@@ -65,7 +65,7 @@ class Handlers
                 'componentData' => [
                     'template' => '',
                     'params' => [
-                       // 'ORM' => BookTable::class,
+                        'ORM' => ModuleCustom::class,
                         'DEAL_ID' => $entityId,
                     ],
                 ],
