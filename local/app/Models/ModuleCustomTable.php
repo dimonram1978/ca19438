@@ -13,9 +13,7 @@ use Bitrix\Main\Entity\Query\Join;
 use Bitrix\Main\ORM\Fields\Relations\OneToMany;
 use Bitrix\Main\ORM\Fields\Relations\ManyToMany;
 
-use Models\AuthorTable as Author;
-use Models\PublisherTable as Publisher;
-use Models\Lists\ShopsPropertyValuesTable as ShopsTable;
+
 use Models\Lists\PrintinghousePropertyValuesTable as PrintinghouseTable;
 /**
  * Class Table
@@ -63,12 +61,18 @@ class ModuleCustomTable extends DataManager
 			,
 			'cars_id' => (new IntegerField('cars_id',
 					[]
-				))->configureTitle(Loc::getMessage('_ENTITY_CARSNAME_FIELD'))
+				))->configureTitle(Loc::getMessage('_ENTITY_CARS_ID_FIELD'))
 						->configurePrimary(true)
 						->configureAutocomplete(true)
 			,
-			(new Reference('CARSNAME', \Bitrix\Iblock\Elements\ElementCarsTable::class, Join::on('this.cars_id', 'ref.ID')))
+			(new Reference('CARS', \Bitrix\Iblock\Elements\ElementCarsTable::class, Join::on('this.cars_id', 'ref.ID')))
 				->configureJoinType('left'), 
+			'deal_id' => (new IntegerField('deal_id',
+					[]
+				))->configureTitle(Loc::getMessage('_ENTITY_ID_FIELD'))
+						->configurePrimary(true)
+						->configureAutocomplete(true)
+			,
 			/*'deal_id' => (new IntegerField('deal_id',
 					[]
 				))->configureTitle(Loc::getMessage('_ENTITY_DEALTITLE_FIELD'))
