@@ -49,7 +49,7 @@ class otus_mymodule extends CModule
     {
         //$path_from = $_SERVER["DOCUMENT_ROOT"]."/local/modules/".$this->MODULE_ID."/templates";
         $path_from = $_SERVER["DOCUMENT_ROOT"]."/local/modules/".$this->MODULE_ID."/install/components/".$this->MODULE_ID;
-        $path_to =  $_SERVER["DOCUMENT_ROOT"] . "/bitrix/templates/".$this->MODULE_ID;
+        $path_to =  $_SERVER["DOCUMENT_ROOT"] . "/bitrix/components/".$this->MODULE_ID;
          
         CopyDirFiles($path_from, $path_to, true, true);
     }
@@ -78,7 +78,7 @@ class otus_mymodule extends CModule
 
     public function UninstallFiles()
     {
-        DeleteDirFilesEx("/bitrix/templates/".$this->COMPONENT_NAME);
+        DeleteDirFilesEx("/bitrix/components/".$this->MODULE_ID);
     }
 
     

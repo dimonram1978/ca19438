@@ -25,10 +25,21 @@ class OtusMyModuleComponent extends \CBitrixComponent
        return $arParams;
   }
 
-  private function getListMassiv()
+  private function getListMassiv($DEAL_ID=null)
   {
 
       
+        /*$list = [];
+        $data = ModuleCustom::getList([
+            'select'=>[
+                       'id',
+		                   'cars_id',
+                       'CARS',
+                       'deal_id',],
+            'filter' => ['deal_id' => $DEAL_ID],
+
+        ])->fetchCollection();*/
+      if (!empty($DEAL_ID) || ($DEAL_ID!=null)){ 
         $list = [];
         $data = ModuleCustom::getList([
             'select'=>[
@@ -36,10 +47,24 @@ class OtusMyModuleComponent extends \CBitrixComponent
 		                   'cars_id',
                        'CARS',
                        'deal_id',],
-            //'filter' => ['CURRENCY' => $CURRENCY],
+            'filter' => ['deal_id' => $DEAL_ID],
 
         ])->fetchCollection();
-      
+         
+     }
+     else{
+       $list = [];
+        $data = ModuleCustom::getList([
+            'select'=>[
+                       'id',
+		                   'cars_id',
+                       'CARS',
+                       'deal_id',],
+            //'filter' => ['deal_id' => $DEAL_ID],
+
+        ])->fetchCollection();
+
+     }
       
 
 
@@ -51,7 +76,7 @@ class OtusMyModuleComponent extends \CBitrixComponent
 
         try
         {
- 
+            
               
             $grid_id = self::GRID_ID;
             $grid_options = new GridOptions($grid_id);
@@ -76,7 +101,16 @@ class OtusMyModuleComponent extends \CBitrixComponent
 		             ;
 
 	             $nav->initFromUri();
-            $elements = $this->getEntity();
+               
+              
+             if (isset($this->arParams['DEAL_ID'])) {
+                
+               $DEAL_ID = $this->arParams['DEAL_ID'];
+               
+             } 
+             else {$DEAL_ID=null;} 
+         
+            $elements = $this->getEntity($DEAL_ID);
  
              
             $page_size = $this->arParams['PAGE_SIZE'] ?? self::PAGE_SIZE;
@@ -96,15 +130,15 @@ class OtusMyModuleComponent extends \CBitrixComponent
                //'actions' => $actions
               ];
 
-        $grid_rows[] = $row;
+             $grid_rows[] = $row;
             }
  
-    $this->arResult['NAV'] = $nav;
+            $this->arResult['NAV'] = $nav;
     
-    $this->arResult['GRID_ID'] = $grid_id;
-    $this->arResult['GRID_FILTER'] = $grid_filter;
-    $this->arResult['GRID_COLUMNS'] = $this->getGridColumns();
-    $this->arResult['ROWS'] = $grid_rows;
+            $this->arResult['GRID_ID'] = $grid_id;
+            $this->arResult['GRID_FILTER'] = $grid_filter;
+            $this->arResult['GRID_COLUMNS'] = $this->getGridColumns();
+            $this->arResult['ROWS'] = $grid_rows;
 
     
             // подключаем шаблон
@@ -125,9 +159,10 @@ class OtusMyModuleComponent extends \CBitrixComponent
        return $fields;
     }
 
-    public function getEntity()
+    public function getEntity($DEAL_ID)
     {
-             $ArrObj = $this->getListMassiv();
+       
+             $ArrObj = $this->getListMassiv($DEAL_ID);
              $ArrMass = [];
              foreach ($ArrObj as $key => $record) {
                 $arSelect = array(

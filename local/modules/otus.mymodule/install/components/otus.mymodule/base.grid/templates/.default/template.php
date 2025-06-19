@@ -1,7 +1,5 @@
 
 <?php
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");?> 
-<?
 
 use Bitrix\Main\Web\Json;
 
@@ -16,7 +14,8 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
  */
 
 \Bitrix\Main\Loader::includeModule('ui');
-  
+
+ 
 $APPLICATION->IncludeComponent(
 	'bitrix:main.ui.grid',
 	'',
@@ -47,8 +46,22 @@ $APPLICATION->IncludeComponent(
 		'ALLOW_HORIZONTAL_SCROLL'   => true, 
 		'ALLOW_SORT'                => true, 
 		'ALLOW_PIN_HEADER'          => true, 
-	]
+	],
+	$component,
 );
- 
- ?> 
-<?php require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?> 
+if (!empty($arParams['AJAX_LOADER'])) { ?>
+    <script>
+        BX.addCustomEvent('Grid::beforeRequest', function (gridData, argse) {
+            if (argse.gridId !== '<?=$arResult['FILTER_ID'];?>') {
+                return;
+            }
+
+            if (argse.url === '') {
+                argse.url = "<?=$component->getPath()?>/lazyload.ajax.php?site=<?=\SITE_ID?>&internal=true&grid_id=<?=$arResult['FILTER_ID']?>&grid_action=filter&"
+            }
+
+            argse.method = 'POST'
+            argse.data = <?= Json::encode($arParams['AJAX_LOADER']['data']) ?>;
+        });
+    </script>
+<?php } ?>

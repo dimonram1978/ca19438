@@ -11,7 +11,7 @@ use Bitrix\Main\Localization\Loc;
 Loc::loadMessages(__FILE__);
 class Handlers
 {
-    public static function updateTabs(Event $event): EventResult
+   public static function updateTabs(Event $event): EventResult
     {
         $entityTypeId = $event->getParameter('entityTypeID');
         $entityId = $event->getParameter('entityID');
@@ -39,7 +39,7 @@ class Handlers
         return new EventResult(EventResult::SUCCESS, ['tabs' => $tabs,]);
     }
 
-    static function myOnEntityDetailsTabsInitialized($event) 
+    static function myOnEntityDetailsTabsInitialized($event): EventResult 
     {
 	$tabs = $event->getParameter('tabs');
 	// ID текущего элемента СРМ 
@@ -51,14 +51,14 @@ class Handlers
 	if($entityTypeID == \CCrmOwnerType::Deal) {
 		// Добавляем свою вкладку в массив вкладок
 		$tabs[] = [
-			'id' => 'newTab',
+			'id' => 'newTab_'. $entityID,
 			'name' => 'Тестовый grid',
 			// Выведим в содержимое новой вкладки ID текущей сделки
 			//'html' => '<b>Содержимое новой вкладки. ID Сделки: '. $entityID .'</b>',
             'enabled' => true,
             'loader' => [
                 'serviceUrl' => sprintf(
-                    '/bitrix/templates/base.grid/lazyload.ajax.php?site=%s&%s',
+                    '/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=%s&%s',
                     \SITE_ID,
                     \bitrix_sessid_get(),
                 ),
@@ -66,7 +66,7 @@ class Handlers
                     'template' => '',
                     'params' => [
                         'ORM' => ModuleCustom::class,
-                        'DEAL_ID' => $entityId,
+                        'DEAL_ID' => $entityID,
                     ],
                 ],
             ],

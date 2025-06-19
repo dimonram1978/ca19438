@@ -1,0 +1,190 @@
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=0c6bf2c992f81490913b653c57a05823"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(1) {
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(226) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=0c6bf2c992f81490913b653c57a05823&by=deal_STAGE_ID&order=asc&internal=true&grid_id=BASE_GRID&grid_action=sort&bxajaxid=fb995608e668d707efaef473fe42bd25"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      NULL
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=0c6bf2c992f81490913b653c57a05823"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(1) {
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(227) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=0c6bf2c992f81490913b653c57a05823&by=deal_STAGE_ID&order=desc&internal=true&grid_id=BASE_GRID&grid_action=sort&bxajaxid=fb995608e668d707efaef473fe42bd25"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      NULL
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "11"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=0c6bf2c992f81490913b653c57a05823"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "11"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_11"
+      }
+    }
+  }
+}
+
+
+array(1) {
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(226) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=0c6bf2c992f81490913b653c57a05823&by=deal_STAGE_ID&order=asc&internal=true&grid_id=BASE_GRID&grid_action=sort&bxajaxid=fb995608e668d707efaef473fe42bd25"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      NULL
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "13"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=0c6bf2c992f81490913b653c57a05823"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "13"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_13"
+      }
+    }
+  }
+}
+
+
