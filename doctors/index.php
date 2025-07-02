@@ -54,7 +54,7 @@ if (!empty($doctor_name)) {
              
             if($doctor['PROC_IDS_MULTI']){
                 $procs_doc = ProcsTable::query()
-                    ->setSelect(['NAME' => 'ELEMENT.NAME'])
+                    ->setSelect(['ID'=> 'ELEMENT.ID', 'NAME' => 'ELEMENT.NAME'])
                     ->where("ELEMENT.ID", "in", $doctor['PROC_IDS_MULTI'])
                     ->fetchAll();
                     
@@ -66,6 +66,8 @@ if (!empty($doctor_name)) {
                     ->where("ELEMENT.ID", "in", $doctor['SPEC_IDS_MULTI'])
                     ->fetchAll();
             }
+           
+             
     
         }
         else {
@@ -75,6 +77,47 @@ if (!empty($doctor_name)) {
 
         
 }
+
+//Список всех броирований пациентов
+use \Bitrix\Iblock\Elements\ElementReservationTable as ReservationTable;
+// Фильтр для бронирования
+$Filter=[];
+if ($doctor_name == '' ) {
+   $Filter=[];    
+}
+else { if(is_array($doctor)){$Filter = ['doctor_id.ELEMENT.ID' => $doctor['ID']];}  }
+
+$reserv = ReservationTable::query()
+    ->setSelect([
+       'id',
+       'NAME',
+       'doctor_id.ELEMENT.ID',
+       'procedure_id.ELEMENT.ID',
+       'booking',
+       'patient',
+       //'doctor_id.ELEMENT' => 'doctor_id_ELEMENT'
+       'DOCTORS',
+        'PROCEDURES'
+    ])
+    ->setFilter($Filter)
+    ->setOrder(['ID' => 'desc'])
+    ->registerRuntimeField(
+        null,
+        new \Bitrix\Main\Entity\ReferenceField(
+            'DOCTORS',
+            'Bitrix\Iblock\Elements\ElementDoctorTable',
+            ['=this.doctor_id.ELEMENT.ID' => 'ref.ID']
+        )
+    )
+    ->registerRuntimeField(
+        null,
+        new \Bitrix\Main\Entity\ReferenceField(
+            'PROCEDURES',
+            'Bitrix\Iblock\Elements\ElementProcTable',
+            ['=this.procedure_id.ELEMENT.ID' => 'ref.ID']
+        )
+    )
+ ->fetchCollection();
 
 // если не выбран доктор и его
 // выводим всех докторов 
@@ -114,10 +157,8 @@ if ($action == 'new' || $action == 'edit') { // добавляем доктор�
             unset($_POST['PROC_IDS_MULTI']);
              
             unset($_POST['SPEC_IDS_MULTI']);
-            //print_r($procs);
             CIBlockElement::SetPropertyValues($ID, DoctorsTable::IBLOCK_ID, $procs, false);
-            //CIBlockElement::SetPropertyValues($ID, DoctorsTable::IBLOCK_ID, $procs, "PROC_IDS_MULTI");
-            //CIBlockElement::SetPropertyValues($ID, DoctorsTable::IBLOCK_ID, $cpec, "SPEC_IDS_MULTI");
+ 
             if (DoctorsTable::update($_POST['ID'], $_POST)) {
                 header("Location: /doctors");
                 exit();
@@ -263,12 +304,18 @@ if ($action == 'new' || $action == 'edit') { // добавляем доктор�
         <div class="doctor4">
           <div class="add-buttons">
            <a href="/doctors/edit/<?=$doctor_name?>"><button>Изменить данные врача</button></a>
+           <div id="bx_popup_form" style="display:none; padding:10px;min-height: 300px" class="bx_login_popup_form">
+              Содержимое всплывающего окна
+           </div>
           </div>
           <div class="procedures">  
             <h2>Выполняемые процедуры:</h2>
+            <div id="news"><h3>Нет новостей</h3></div>
             <ul>
              <?php  foreach ($procs_doc as $proc) { ?>             
-                <?='<li><span class="blue"> '.$proc['NAME'].' </span></li>'?>
+                <?='<li><span class="blue"> '.$proc['NAME'].' </span>'.
+                    '<a href="javascript:void(0)" onclick="openFormPopup('.$proc['ID'].')" class="recall">Записаться</a></li>'
+                ?>
              <?php } ?>
             </ul>
           </div>
@@ -286,4 +333,114 @@ if ($action == 'new' || $action == 'edit') { // добавляем доктор�
      <?php endif;?>    
    </div>
 </section>
+<section>
 
+ <table><?php
+ echo '<tr><td colspan="6" bgcolor="#FBF0DB">Список записей к врачам:</td><tr>';
+ echo '<tr><td>Номер:</td><td>Наименование:</td><td>Время:</td><td>Врач:</td><td>Пациент:</td><td>Процедура:</td><tr>';
+ 
+ foreach ($reserv as $item): 
+   echo '<tr><td>'.$item->getid().'</td>';
+   echo '<td>'.$item->getName().'</td>';
+       $arValue = unserialize(htmlspecialcharsback(base64_decode($item->getBooking()->getValue())), [stdClass::class]);
+      
+        $Date = ($arValue['DATE']) ? $arValue['DATE'] : '';
+        $timeFrom = ($arValue['TIME_FROM']) ? $arValue['TIME_FROM'] : '';
+        $timeTo = ($arValue['TIME_TO']) ? $arValue['TIME_TO'] : '';
+
+        $html2 = '<div>&nbsp;Дата приёма: &nbsp;'.$Date.'&nbsp;время приёма: с&nbsp;'.$timeFrom.'&nbsp;по&nbsp;'.$timeTo.'</div>';
+         
+   echo '<td>'.$html2.'</td>';
+   echo '<td>'.$item->get('DOCTORS')->getName().'</td>';
+   echo '<td>'.$item->getPatient()->getValue().'</td>';
+   echo '<td>'.$item->get('PROCEDURES')->getName().'</td>';
+ endforeach;
+?>
+</table>
+</section>
+
+<?php
+
+CJSCore::Init(['popup']);
+?>
+<script>
+    function openFormPopup(proc_id)
+    {
+
+        var authPopup = BX.PopupWindowManager.create("FormPopup", proc_id,  {
+            //console.log(al);
+            //content: 'Контент, отображаемый в теле окна'
+            
+            width: 400, // ширина окна
+            height: 350, // высота окна
+            zIndex: 100, // z-index
+            autoHide: true,
+            offsetLeft: 0,
+            offsetTop: 0,
+            resizable: true,
+            overlay : true,
+            draggable: {restrict:true},
+            closeByEsc: true,
+            closeIcon: { right : "12px", top : "10px"},
+            titleBar: 'Запись на процедуру',
+            content: '<div style="text-align: center;">'+
+                     '<form method="GET">'+
+                     '<p><lable>Введите имя пациента:</lable><br><input type="text" id="patientName" name="patientName" placeholder="Имя пациента" size="18" /></p>'+  
+                     '<p><lable>Введите дату записи:</lable><div class="day_zapic" >&nbsp;Дата приёма: &nbsp;<input type="date" id="DATE" name="DATE" value="">'+
+                     '&nbsp;время приёма: с&nbsp;<input type="time" id="TIME_FROM" name="TIME_FROM" value="">'+
+                     '&nbsp;по&nbsp;<input type="time" id="TIME_TO" name="TIME_TO" value=""></div></p>'+
+                     '<p><lable>Врач: </lable><input type="text" disabled  id="doctor_name" name="doctor_name" value="<?echo $doctor_name;?>"/></p>'+
+                     '<input type="hidden" id="doctor_id" name="doctor_id" value="<?echo $doctor['ID'];?>"/>'+ 
+                     '<input type="hidden" id="procedure_id" name="procedure_id" value="'+proc_id+'"/>'+
+                     '</form></div>',
+            buttons: [
+                new BX.PopupWindowButton({
+                    text: 'Сохранить', // текст кнопки
+                    id: 'save-btn', // идентификатор
+                    className: 'ui-btn ui-btn-success', // доп. классы
+                    events: {
+                      click: function() {
+                          ajaxload();
+                          this.popupWindow.close();
+                         // var goToUrl= '../local/ajax/hendler_records.php';
+                         // $('#news').load(goToUrl);
+                      }
+                    }
+                }),
+            ],
+            events: {
+                onAfterPopupShow: function()
+                {
+                    this.setContent(BX("bx_recall_popup_form"));
+                }
+            }
+        });
+
+        authPopup.show();
+    }
+
+    function ajaxload(){
+        var patientName= document.getElementById('patientName').value;
+        var DATE= document.getElementById('DATE').value;
+        var TIME_FROM= document.getElementById('TIME_FROM').value;
+        var TIME_TO= document.getElementById('TIME_TO').value;
+        var doctor_name= document.getElementById('doctor_name').value;
+        var doctor_id= document.getElementById('doctor_id').value;
+        var procedure_id= document.getElementById('procedure_id').value;
+        
+        
+        var request = new XMLHttpRequest();
+          function reqReadyStateChange() {
+           if (request.readyState == 4 && request.status == 200)
+               document.getElementById("news").innerHTML= "На Ваш запрос отвечаю:<br>"+request.responseText;
+          }
+ 
+       var goToUrl= '../local/ajax/hendler_records.php';
+       var body= 'patientName='+patientName+'&DATE='+DATE+'&TIME_FROM='+TIME_FROM+'&TIME_TO='+TIME_TO+'&doctor_name='+doctor_name+'&doctor_id='+doctor_id+'&procedure_id='+procedure_id;
+       request.open("POST", goToUrl);
+       request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+       request.onreadystatechange = reqReadyStateChange;
+       request.send(body);
+    }
+ 
+</script>

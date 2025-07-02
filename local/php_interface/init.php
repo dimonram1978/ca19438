@@ -1,4 +1,5 @@
 <?php
+//Автозагрузка классов
  if (file_exists (__DIR__ . '/../../vendor/autoload.php')) {
   require_once __DIR__ . '/../../vendor/autoload.php';
 }
@@ -6,6 +7,9 @@
  if (file_exists (__DIR__ . '/src/autoloader.php')) {
     require_once __DIR__ . '/src/autoloader.php';
  }
+
+//Обработка событий
+require dirname(__FILE__) . '/event_handler.php';
 
  // автолоадер проекта
 include_once __DIR__ . '/../app/autoload.php';
@@ -19,3 +23,33 @@ include_once __DIR__ . '/../app/autoload.php';
  echo '</PRE>';
 
  }
+ 
+use Bitrix\Main\EventManager;
+$eventManager = EventManager::getInstance();
+
+//Вешаем обработчик на событие создания списка пользовательских свойств OnUserTypeBuildList
+$eventManager->addEventHandler(
+  'iblock', 'OnIBlockPropertyBuildList',
+   [
+    'UserTypes\CUserTypeTimesheet',
+    'GetUserTypeDescription'
+    ]
+);
+
+/*$eventManager->AddEventHandler(
+    'iblock',
+    'OnIBlockPropertyBuildList',
+    [
+        'UserTypes\IBLink', // класс обработчик пользовательского типа свойства 
+        'GetUserTypeDescription'
+    ]
+);*/
+
+/*$eventManager->AddEventHandler(
+    'iblock',
+    'OnIBlockPropertyBuildList',
+    [
+        'UserTypes\CIBlockNewProperty', // класс обработчик пользовательского типа свойства 
+        'GetUserTypeDescription'
+    ]
+);*/

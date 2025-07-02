@@ -8,3 +8,11 @@ spl_autoload_register(function ($className) {
         include_once $file;
     }
 });
+
+use Bitrix\Main\Loader;
+//Папка с пользовательскими классами
+define('APP_CLASS_FOLDER', '/local/php_interface/app/');
+//Автозагрузка наших классов
+Loader::registerAutoLoadClasses(null, [
+    'app\usertypes\CUserTypeTimesheet' => APP_CLASS_FOLDER . 'usertypes/CUserTypeTimesheet.php',
+]);

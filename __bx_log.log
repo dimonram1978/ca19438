@@ -188,3 +188,105 @@ array(3) {
 }
 
 
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=0c6bf2c992f81490913b653c57a05823"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=b41681446e3bbdcea99c4eec99e421de"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=b41681446e3bbdcea99c4eec99e421de"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
