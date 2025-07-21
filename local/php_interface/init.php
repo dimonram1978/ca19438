@@ -24,6 +24,7 @@ include_once __DIR__ . '/../app/autoload.php';
 
  }
  
+ 
 use Bitrix\Main\EventManager;
 $eventManager = EventManager::getInstance();
 
@@ -36,20 +37,12 @@ $eventManager->addEventHandler(
     ]
 );
 
-/*$eventManager->AddEventHandler(
-    'iblock',
-    'OnIBlockPropertyBuildList',
-    [
-        'UserTypes\IBLink', // класс обработчик пользовательского типа свойства 
-        'GetUserTypeDescription'
-    ]
-);*/
+//\Bitrix\Main\UI\Extension::load(['otus_mymodule.greeting-message']);
 
-/*$eventManager->AddEventHandler(
-    'iblock',
-    'OnIBlockPropertyBuildList',
-    [
-        'UserTypes\CIBlockNewProperty', // класс обработчик пользовательского типа свойства 
-        'GetUserTypeDescription'
-    ]
-);*/
+\Bitrix\Main\UI\Extension::load([
+//    'aholin_crmcustomtab.useless_extensions.greeting-message',
+//    'dev_helper.log_events',
+//    'ajax.all_ajax_handler',
+//    'otus_crm.negative_currency',
+    'homework.begin_date_button',
+]);
