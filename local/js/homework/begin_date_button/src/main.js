@@ -101,7 +101,7 @@ BX.Homework.BeginDateButton = {
     }
     
 };
-
+ 
 BX.addCustomEvent('onTimeManWindowBuild', function () {
     let timemanPopup = BX('timeman_main');
     let startOrContinueDayButton = timemanPopup.querySelector('button.ui-btn.ui-btn-icon-start');
@@ -112,9 +112,11 @@ BX.addCustomEvent('onTimeManWindowBuild', function () {
         event.stopPropagation();
         event.stopImmediatePropagation();
 
+        let parent = document.getElementById('timeman-block');
+        let before = document.getElementById('timeman-timer');
         let popupDiv = document.createElement('div');
         popupDiv.id = 'greeting-message-popup';
-        document.body.appendChild(popupDiv);
+        parent.insertBefore(popupDiv, before); 
         BX.Homework.BeginDateButton.onStartWorkingDateAction(popupDiv.id);
 
         return false;
