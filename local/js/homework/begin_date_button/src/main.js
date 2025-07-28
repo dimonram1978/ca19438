@@ -7,35 +7,29 @@ BX.Homework.BeginDateButton = {
     onStartWorkingDateAction: function (popupNodeId) {
         var popup = BX.PopupWindowManager.create("greeting-popup-message", BX(popupNodeId), {
             content: 'Вы хотите начать рабочий день?',
-            width: 400, // ширина окна
-            height: 350, // высота окна
+            width: 600, // ширина окна
+            height: 400, // высота окна
             zIndex: 100, // z-index
             offsetTop: 0,
             offsetLeft: 0,
-            resizable: true, // можно ресайзить
-            overlay : true,
-            draggable: true, // можно двигать или нет
-            closeByEsc: true, // закрытие окна по esc
-            closeIcon: { right : "12px", top : "10px"},
-
-            /*closeIcon: {
+            closeIcon: {
                 // объект со стилями для иконки закрытия, при null - иконки не будет
                 opacity: 1
-            },*/
+            },
             titleBar: 'Начало рабочего дня',
-            /*closeByEsc: true, // закрытие окна по esc
+            closeByEsc: true, // закрытие окна по esc
             darkMode: false, // окно будет светлым или темным
             autoHide: true, // закрытие при клике вне окна
             draggable: true, // можно двигать или нет
-            
+            resizable: true, // можно ресайзить
             min_height: 100, // минимальная высота окна
             min_width: 100, // минимальная ширина окна
             lightShadow: true, // использовать светлую тень у окна
-            angle: true, // появится уголок*/
-            /*overlay: {
+            angle: true, // появится уголок
+            overlay: {
                 backgroundColor: 'black',
                 opacity: 500
-            },*/
+            },
             buttons: [
                 new BX.PopupWindowButton({
                     text: 'Начать', // текст кнопки
@@ -87,8 +81,10 @@ BX.Homework.BeginDateButton = {
                let html = document.getElementById("user-name").innerHTML; 
               // console.log(request.responseText);
               // html = html + request.responseText;
+              
               $userName = request.responseText;
-              document.getElementById("user-name").innerHTML= $userName+' вы начали рабочий день в '+time_hours+':'+time_minutes;
+              //console.log(time_minutes);
+               document.getElementById("user-name").innerHTML= $userName+' вы начали рабочий день в '+time_hours+':'+time_minutes;
             }
           }
   
@@ -98,6 +94,11 @@ BX.Homework.BeginDateButton = {
        request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
        request.onreadystatechange = reqReadyStateChange;
        request.send();
+    },
+    startDate: function () {
+        BX.ajax.runAction('aholin:crmcustomtab.TimemanActions.TimemanController.startDate', {
+            data: {},
+        });
     }
     
 };
@@ -106,7 +107,7 @@ BX.addCustomEvent('onTimeManWindowBuild', function () {
     let timemanPopup = BX('timeman_main');
     let startOrContinueDayButton = timemanPopup.querySelector('button.ui-btn.ui-btn-icon-start');
 
-    startOrContinueDayButton.innerHTML = '';
+    startOrContinueDayButton.innerHTML = 'Нажмите для начала рабочего дня';
     startOrContinueDayButton.onclick = function (event) {
         event.preventDefault();
         event.stopPropagation();

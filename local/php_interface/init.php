@@ -6,7 +6,11 @@
 /*var_dump(__DIR__ . '/src/autoloader.php');*/
  if (file_exists (__DIR__ . '/src/autoloader.php')) {
     require_once __DIR__ . '/src/autoloader.php';
+    
  }
+ include_once __DIR__ . '/classes/LKIblock.php';
+
+ include_once __DIR__ . '/classes/Dadata.php';
 
 //Обработка событий
 require dirname(__FILE__) . '/event_handler.php';
