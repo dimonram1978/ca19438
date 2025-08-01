@@ -16,7 +16,7 @@ class CBPSearchByInnActivity extends BaseActivity
      * @see parent::_construct()
      * @param $name string Activity name
      */
-    public const IBLOCK_ID = 25;
+    const IBLOCK_ID = 25;
     public function __construct($name)
     {
         parent::__construct($name);
@@ -145,7 +145,7 @@ class CBPSearchByInnActivity extends BaseActivity
            $this->log('element_id : '.$element_id);
         // сохранение полученных результатов работы активити в переменную бизнес процесса
         //
-          CIBlockElement::SetPropertyValuesEx($element_id, $iblockId, [
+          CIBlockElement::SetPropertyValuesEx($element_id, CBPSearchByInnActivity::IBLOCK_ID, [
             "COMPANY_ID" => $companyID,
             "COMPANY_TITLE" => $companyName
           ]);
@@ -157,7 +157,7 @@ class CBPSearchByInnActivity extends BaseActivity
             $rootActivity = $this->GetRootActivity();
             $element_id = $rootActivity->GetVariable("ELEMENT_ID");
             $this->log('element_id : '.$element_id);
-            CIBlockElement::SetPropertyValuesEx($element_id, $iblockId, [
+            CIBlockElement::SetPropertyValuesEx($element_id, CBPSearchByInnActivity::IBLOCK_ID, [
               "COMPANY_TITLE" => 'Дубликат записи Такой ИНН: '.$this->Inn.' в базе уже есть'
             ]);
         }

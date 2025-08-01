@@ -11,6 +11,19 @@ use Bitrix\Main\ORM\Fields\Relations\Reference;
 use Bitrix\Main\Entity\ReferenceField;
 use Bitrix\Main\Entity\Query\Join;
 use Bitrix\Main\Entity\Query;
+
+$iblockId = 29;
+              
+              //CModule::IncludeModule('iblock');
+              //Для замены другиз свойств есть куда более простой метод SetPropertyValuesEx
+              $SetProperty_arr = [
+                "Client_id" => 17,
+                "summ" => 40000,
+                "responsible" => 1
+              ];  
+              //\Bitrix\Main\Loader::includeModule('iblock');
+              
+              CIBlockElement::SetPropertyValuesEx(180, $iblockId, $SetProperty_arr);
 //use \Bitrix\Iblock\Elements\ElementReservationTable as Reservation;
 /*use \Bitrix\Iblock\Elements\ElementCarsTable as CarsTable;
 $cars = CarsTable::query()
@@ -109,7 +122,7 @@ else
 	echo "Error: ".$el->LAST_ERROR;    
 //CIBlockElement::SetPropertyValues($next_Id, $iblockId, $procs, false);
 */
-use \Bitrix\Iblock\Elements\ElementReservationTable as ReservationTable;
+/*use \Bitrix\Iblock\Elements\ElementReservationTable as ReservationTable;
 $reserv = ReservationTable::query()
     ->setSelect([
        'id',
@@ -132,7 +145,42 @@ $reserv = ReservationTable::query()
     )
     ->fetchALl();
 
-pr($reserv); 
+pr($reserv); */
+/*$reservation = \Bitrix\Iblock\Elements\ElementReservationTable::query()
+    ->registerRuntimeField("DOCTOR",[
+            "data_type" => "\Bitrix\Iblock\Elements\ElementDoctorTable",
+            'reference' => [
+                'this.doctor_id.ELEMENT.ID' => 'ref.ID'
+            ],
+        ])
+    ->setSelect([
+       'ID',
+       'NAME',
+        'DOCTOR.NAME',
+        'DOCTOR.FIRST_NAME',
+        'DOCTOR.MIDDLE_NAME',
+    ])
+    ->fetchALl();
+foreach     ($reservation as $item){
+    pr($item);
+}*/
+/*$reservation = \Bitrix\Iblock\Elements\ElementReservationTable::query()
+    ->setSelect([
+       'ID',
+       'NAME',
+       'doctor_id.ELEMENT.NAME',
+       'doctor_id.ELEMENT.FIRST_NAME',
+       'doctor_id.ELEMENT.MIDDLE_NAME',
+       'doctor_id.ELEMENT.LAST_NAME',
+    ])
+    ->fetchCollection();
+foreach ($reservation as $item){
+    echo $item->get('NAME').'<br/>';
+    echo $item->getDoctorId()->getElement()->getName().'<br/>';
+    echo $item->getDoctorId()->getElement()->getFirstName()->getValue().'<br/>';
+    echo $item->getDoctorId()->getElement()->getLastName()->getValue().'<br/>';
+    echo $item->getDoctorId()->getElement()->getMiddleName()->getValue().'<br/>';
+}*/
 /*foreach ($reserv as $item): 
     //echo $item->getdoctor_id()->getValue();
     //pr(base64_decode($item->getBooking()->getValue()));

@@ -1,0 +1,137 @@
+OTUS -2025-08-01 13:20:29 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:100
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 13:24:21 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Iblock\Elements\ElementZayavkiTable::SetPropertyValuesEx() (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:100
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 13:25:23 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Iblock\Elements\ElementZayavkiTable::SetPropertyValuesEx() (0)
+/home/c/ca19438/public_html/doctors/index3.php:26
+----------
+
+OTUS -2025-08-01 13:29:28 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:100
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 13:30:46 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:100
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 13:36:48 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CModule" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:100
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 13:42:41 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CModule" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:100
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 14:55:38 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Main\CModule" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:100
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 15:08:54 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:102
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 15:10:35 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Main\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:102
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 15:15:55 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Main\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:103
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 15:17:52 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:103
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+
+OTUS -2025-08-01 15:28:02 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:103
+#0: Events\CrmHandler::MyonElementAfterUpdate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5252
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:3620
+#2: CAllCrmDeal->Update(integer, array, boolean, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
+----------
+

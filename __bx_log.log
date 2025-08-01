@@ -290,3 +290,343 @@ array(3) {
 }
 
 
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "15"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=d0b8b5668cdc5f941fae383b0770037d"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "15"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_15"
+      }
+    }
+  }
+}
+
+
+onElementBeforeAdd:
+array(50) {
+  ["HTTPS"]=>
+  string(2) "On"
+  ["REMOTE_USER"]=>
+  string(0) ""
+  ["HTTP_HOST"]=>
+  string(14) "ca19438.tw1.ru"
+  ["HTTP_X_HTTPS"]=>
+  string(1) "1"
+  ["HTTP_X_FORWARDED_PROTO"]=>
+  string(5) "https"
+  ["HTTP_CONNECTION"]=>
+  string(5) "close"
+  ["CONTENT_LENGTH"]=>
+  string(4) "8290"
+  ["HTTP_CACHE_CONTROL"]=>
+  string(9) "max-age=0"
+  ["HTTP_SEC_CH_UA"]=>
+  string(64) ""Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138""
+  ["HTTP_SEC_CH_UA_MOBILE"]=>
+  string(2) "?0"
+  ["HTTP_SEC_CH_UA_PLATFORM"]=>
+  string(9) ""Windows""
+  ["HTTP_ORIGIN"]=>
+  string(22) "https://ca19438.tw1.ru"
+  ["CONTENT_TYPE"]=>
+  string(68) "multipart/form-data; boundary=----WebKitFormBoundaryeAKwWj1BZ4IE4STr"
+  ["HTTP_UPGRADE_INSECURE_REQUESTS"]=>
+  string(1) "1"
+  ["HTTP_USER_AGENT"]=>
+  string(111) "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+  ["HTTP_ACCEPT"]=>
+  string(135) "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+  ["HTTP_SEC_FETCH_SITE"]=>
+  string(11) "same-origin"
+  ["HTTP_SEC_FETCH_MODE"]=>
+  string(8) "navigate"
+  ["HTTP_SEC_FETCH_USER"]=>
+  string(2) "?1"
+  ["HTTP_SEC_FETCH_DEST"]=>
+  string(8) "document"
+  ["HTTP_REFERER"]=>
+  string(157) "https://ca19438.tw1.ru/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=16&type=lists&lang=ru&find_section_section=0&IBLOCK_SECTION_ID=0&from=iblock_list_admin"
+  ["HTTP_ACCEPT_ENCODING"]=>
+  string(23) "gzip, deflate, br, zstd"
+  ["HTTP_ACCEPT_LANGUAGE"]=>
+  string(35) "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+  ["HTTP_PRIORITY"]=>
+  string(6) "u=0, i"
+  ["HTTP_COOKIE"]=>
+  string(300) "BITRIX_SM_TZ=Europe/Moscow; BITRIX_SM_SALE_UID=0; BITRIX_SM_LOGIN=admin; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; PHPSESSID=chWbaZSvGF1eoTXlFWQWnd5d0NFc0V6z; BITRIX_CONVERSION_CONTEXT_s1=%7B%22ID%22%3A1%2C%22EXPIRE%22%3A1753822740%2C%22UNIQUE%22%3A%5B%22conversion_visit_day%22%5D%7D; BITRIX_SM_LAST_SETTINGS="
+  ["PATH"]=>
+  string(60) "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  ["SERVER_SIGNATURE"]=>
+  string(0) ""
+  ["SERVER_SOFTWARE"]=>
+  string(13) "Apache/2.4.52"
+  ["SERVER_NAME"]=>
+  string(14) "ca19438.tw1.ru"
+  ["SERVER_ADDR"]=>
+  string(9) "127.0.0.1"
+  ["SERVER_PORT"]=>
+  string(2) "80"
+  ["REMOTE_ADDR"]=>
+  string(13) "212.42.58.242"
+  ["DOCUMENT_ROOT"]=>
+  string(27) "/home/c/ca19438/public_html"
+  ["REQUEST_SCHEME"]=>
+  string(4) "http"
+  ["CONTEXT_PREFIX"]=>
+  string(0) ""
+  ["CONTEXT_DOCUMENT_ROOT"]=>
+  string(27) "/home/c/ca19438/public_html"
+  ["SERVER_ADMIN"]=>
+  string(15) "info@timeweb.ru"
+  ["SCRIPT_FILENAME"]=>
+  string(64) "/home/c/ca19438/public_html/bitrix/admin/iblock_element_edit.php"
+  ["REMOTE_PORT"]=>
+  string(5) "45028"
+  ["GATEWAY_INTERFACE"]=>
+  string(7) "CGI/1.1"
+  ["SERVER_PROTOCOL"]=>
+  string(8) "HTTP/1.0"
+  ["REQUEST_METHOD"]=>
+  string(4) "POST"
+  ["QUERY_STRING"]=>
+  string(54) "IBLOCK_ID=16&type=lists&lang=ru&find_section_section=0"
+  ["REQUEST_URI"]=>
+  string(92) "/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=16&type=lists&lang=ru&find_section_section=0"
+  ["SCRIPT_NAME"]=>
+  string(37) "/bitrix/admin/iblock_element_edit.php"
+  ["PHP_SELF"]=>
+  string(37) "/bitrix/admin/iblock_element_edit.php"
+  ["REQUEST_TIME_FLOAT"]=>
+  float(1753795282.360933)
+  ["REQUEST_TIME"]=>
+  int(1753795282)
+  ["argv"]=>
+  array(1) {
+    [0]=>
+    string(54) "IBLOCK_ID=16&type=lists&lang=ru&find_section_section=0"
+  }
+  ["argc"]=>
+  int(1)
+}
+
+
+onElementBeforeAdd:
+array(50) {
+  ["HTTPS"]=>
+  string(2) "On"
+  ["REMOTE_USER"]=>
+  string(0) ""
+  ["HTTP_HOST"]=>
+  string(14) "ca19438.tw1.ru"
+  ["HTTP_X_HTTPS"]=>
+  string(1) "1"
+  ["HTTP_X_FORWARDED_PROTO"]=>
+  string(5) "https"
+  ["HTTP_CONNECTION"]=>
+  string(5) "close"
+  ["CONTENT_LENGTH"]=>
+  string(4) "8291"
+  ["HTTP_CACHE_CONTROL"]=>
+  string(9) "max-age=0"
+  ["HTTP_SEC_CH_UA"]=>
+  string(64) ""Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138""
+  ["HTTP_SEC_CH_UA_MOBILE"]=>
+  string(2) "?0"
+  ["HTTP_SEC_CH_UA_PLATFORM"]=>
+  string(9) ""Windows""
+  ["HTTP_ORIGIN"]=>
+  string(22) "https://ca19438.tw1.ru"
+  ["CONTENT_TYPE"]=>
+  string(68) "multipart/form-data; boundary=----WebKitFormBoundary97sCcwAfireGhUmc"
+  ["HTTP_UPGRADE_INSECURE_REQUESTS"]=>
+  string(1) "1"
+  ["HTTP_USER_AGENT"]=>
+  string(111) "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+  ["HTTP_ACCEPT"]=>
+  string(135) "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
+  ["HTTP_SEC_FETCH_SITE"]=>
+  string(11) "same-origin"
+  ["HTTP_SEC_FETCH_MODE"]=>
+  string(8) "navigate"
+  ["HTTP_SEC_FETCH_USER"]=>
+  string(2) "?1"
+  ["HTTP_SEC_FETCH_DEST"]=>
+  string(8) "document"
+  ["HTTP_REFERER"]=>
+  string(157) "https://ca19438.tw1.ru/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=16&type=lists&lang=ru&find_section_section=0&IBLOCK_SECTION_ID=0&from=iblock_list_admin"
+  ["HTTP_ACCEPT_ENCODING"]=>
+  string(23) "gzip, deflate, br, zstd"
+  ["HTTP_ACCEPT_LANGUAGE"]=>
+  string(35) "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
+  ["HTTP_PRIORITY"]=>
+  string(6) "u=0, i"
+  ["HTTP_COOKIE"]=>
+  string(300) "BITRIX_SM_TZ=Europe/Moscow; BITRIX_SM_SALE_UID=0; BITRIX_SM_LOGIN=admin; BITRIX_SM_SOUND_LOGIN_PLAYED=Y; PHPSESSID=chWbaZSvGF1eoTXlFWQWnd5d0NFc0V6z; BITRIX_CONVERSION_CONTEXT_s1=%7B%22ID%22%3A1%2C%22EXPIRE%22%3A1753822740%2C%22UNIQUE%22%3A%5B%22conversion_visit_day%22%5D%7D; BITRIX_SM_LAST_SETTINGS="
+  ["PATH"]=>
+  string(60) "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+  ["SERVER_SIGNATURE"]=>
+  string(0) ""
+  ["SERVER_SOFTWARE"]=>
+  string(13) "Apache/2.4.52"
+  ["SERVER_NAME"]=>
+  string(14) "ca19438.tw1.ru"
+  ["SERVER_ADDR"]=>
+  string(9) "127.0.0.1"
+  ["SERVER_PORT"]=>
+  string(2) "80"
+  ["REMOTE_ADDR"]=>
+  string(13) "212.42.58.242"
+  ["DOCUMENT_ROOT"]=>
+  string(27) "/home/c/ca19438/public_html"
+  ["REQUEST_SCHEME"]=>
+  string(4) "http"
+  ["CONTEXT_PREFIX"]=>
+  string(0) ""
+  ["CONTEXT_DOCUMENT_ROOT"]=>
+  string(27) "/home/c/ca19438/public_html"
+  ["SERVER_ADMIN"]=>
+  string(15) "info@timeweb.ru"
+  ["SCRIPT_FILENAME"]=>
+  string(64) "/home/c/ca19438/public_html/bitrix/admin/iblock_element_edit.php"
+  ["REMOTE_PORT"]=>
+  string(5) "42412"
+  ["GATEWAY_INTERFACE"]=>
+  string(7) "CGI/1.1"
+  ["SERVER_PROTOCOL"]=>
+  string(8) "HTTP/1.0"
+  ["REQUEST_METHOD"]=>
+  string(4) "POST"
+  ["QUERY_STRING"]=>
+  string(54) "IBLOCK_ID=16&type=lists&lang=ru&find_section_section=0"
+  ["REQUEST_URI"]=>
+  string(92) "/bitrix/admin/iblock_element_edit.php?IBLOCK_ID=16&type=lists&lang=ru&find_section_section=0"
+  ["SCRIPT_NAME"]=>
+  string(37) "/bitrix/admin/iblock_element_edit.php"
+  ["PHP_SELF"]=>
+  string(37) "/bitrix/admin/iblock_element_edit.php"
+  ["REQUEST_TIME_FLOAT"]=>
+  float(1753795336.794641)
+  ["REQUEST_TIME"]=>
+  int(1753795336)
+  ["argv"]=>
+  array(1) {
+    [0]=>
+    string(54) "IBLOCK_ID=16&type=lists&lang=ru&find_section_section=0"
+  }
+  ["argc"]=>
+  int(1)
+}
+
+
+onElementBeforeAdd=string(42) "/home/c/ca19438/public_html/log_Iblock.txt"
+
+
+/home/c/ca19438/public_html/log_Iblock.txt=string(18) "onElementBeforeAdd"
+
+
+onElementBeforeUpdate:
+Array
+(
+    [ACTIVE] => Y
+    [MODIFIED_BY] => 1
+    [IBLOCK_ID] => 29
+    [ACTIVE_FROM] => 
+    [ACTIVE_TO] => 
+    [SORT] => 500
+    [NAME] => Заявка изменена в 30.07.2025 11:56:48
+    [CODE] => 
+    [TAGS] => 
+    [PREVIEW_TEXT] => 
+    [PREVIEW_TEXT_TYPE] => text
+    [DETAIL_TEXT] => 
+    [DETAIL_TEXT_TYPE] => text
+    [TMP_ID] => 0
+    [PROPERTY_VALUES] => Array
+        (
+            [102] => Array
+                (
+                    [387] => Array
+                        (
+                            [VALUE] => 1
+                        )
+
+                )
+
+            [100] => Array
+                (
+                    [385] => Array
+                        (
+                            [VALUE] => 11
+                        )
+
+                )
+
+            [101] => Array
+                (
+                    [386] => Array
+                        (
+                            [VALUE] => 650000
+                        )
+
+                )
+
+            [104] => Array
+                (
+                    [388] => Array
+                        (
+                            [VALUE] => 17
+                        )
+
+                )
+
+        )
+
+    [IBLOCK_SECTION] => Array
+        (
+        )
+
+    [IPROPERTY_TEMPLATES] => Array
+        (
+            [ELEMENT_META_TITLE] => 
+            [ELEMENT_META_KEYWORDS] => 
+            [ELEMENT_META_DESCRIPTION] => 
+            [ELEMENT_PAGE_TITLE] => 
+            [ELEMENT_PREVIEW_PICTURE_FILE_ALT] => 
+            [ELEMENT_PREVIEW_PICTURE_FILE_TITLE] => 
+            [ELEMENT_PREVIEW_PICTURE_FILE_NAME] => 
+            [ELEMENT_DETAIL_PICTURE_FILE_ALT] => 
+            [ELEMENT_DETAIL_PICTURE_FILE_TITLE] => 
+            [ELEMENT_DETAIL_PICTURE_FILE_NAME] => 
+        )
+
+    [WF] => N
+    [WF_NEW] => 
+    [SEARCHABLE_CONTENT] => ЗАЯВКА ИЗМЕНЕНА В 30.07.2025 11:32:58
+
+
+    [ID] => 179
+)
+
+

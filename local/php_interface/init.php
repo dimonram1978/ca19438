@@ -27,8 +27,8 @@ include_once __DIR__ . '/../app/autoload.php';
  echo '</PRE>';
 
  }
- 
- 
+
+
 use Bitrix\Main\EventManager;
 $eventManager = EventManager::getInstance();
 
@@ -50,3 +50,28 @@ $eventManager->addEventHandler(
 //    'otus_crm.negative_currency',
     'homework.begin_date_button',
 ]);
+
+
+// обработчик событий инфоблока
+ //$eventManager->addEventHandler("iblock", "OnBeforeIBlockElementAdd", ['Events\IblockHandler', 'onElementBeforeAdd']);
+ $eventManager->addEventHandler("iblock", "OnBeforeIBlockElementUpdate", ['Events\IblockHandler', 'onElementBeforeUpdate']);
+ //$eventManager->addEventHandler("iblock", "OnAfterIBlockElementUpdate", ['Events\IblockHandler', 'onElementAfterUpdate']);
+ //$eventManager->addEventHandler("iblock", "OnBeforeIBlockElementDelete", ['Events\IblockHandler', 'onElementBeforeDelete']);
+
+
+// обработчик событий CRM
+
+//$eventManager->addEventHandler("crm","OnBeforeCrmDealUpdate", ['Events\CrmHandler', 'MyonElementBeforeUpdate']);
+$eventManager->addEventHandler("crm","OnAfterCrmDealUpdate", ['Events\CrmHandler', 'MyonElementAfterUpdate']);
+ //$eventManager->addEventHandler("crm","\Bitrix\Crm\Timeline\Entity\Timeline::OnBeforeAdd", ['Events\OrmHandler', 'onTimelineBeforeAdd']);
+ //$eventManager->addEventHandler("crm","\Bitrix\Crm\Timeline\Entity\Timeline::OnBeforeAdd", ['Events\OrmHandler', 'onTimelineBeforeUpdate']);
+
+
+// обработчик событий highload-блоков
+// $entityName = Events\HlblockHandler::getHlIdByName('BooksList');
+// $eventManager->addEventHandler('', "{$entityName}onBeforeAdd", ['Events\HlblockHandler', 'OnBeforeHLEAdd']);
+
+
+// $eventManager = EventManager::getInstance();
+// //$eventManager->addEventHandlerCompatible('main', 'OnProlog', ['Events\DuplicateCounter\Handler', 'duplicateCounter']);
+// $eventManager->addEventHandlerCompatible('main', 'OnEpilog', ['Events\DuplicateCounter\Handler', 'duplicateCounter']);
