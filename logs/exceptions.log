@@ -135,3 +135,16 @@ Class "Events\CIBlockElement" not found (0)
 	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:1035
 ----------
 
+OTUS -2025-08-05 16:35:14 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Could not find configuration 'controllers' for module aholin.crmcustomtab. Probably module is not installed or not configured properly. (2210204)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/engine/router.php:215
+#0: Bitrix\Main\Engine\Router->includeModule(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/engine/router.php:153
+#1: Bitrix\Main\Engine\Router->getControllerAndAction()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:102
+#2: Bitrix\Main\HttpApplication->run()
+	/home/c/ca19438/public_html/bitrix/modules/main/services/ajax.php:29
+#3: require(string)
+	/home/c/ca19438/public_html/bitrix/services/main/ajax.php:1
+----------
+

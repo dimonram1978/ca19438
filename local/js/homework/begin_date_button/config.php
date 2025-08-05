@@ -4,6 +4,6 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 
 return [
     'js' => [
-        'src/main.js',
+        'src/main1.js',
     ],
 ];
