@@ -31,7 +31,7 @@ class CrmHandler
             [
              'ID',
              'TITLE',
-		     'COMPANY_ID',
+		         'COMPANY_ID',
              'OPPORTUNITY',//сумма
              'ASSIGNED_BY_ID',//ответственный
             ]
@@ -66,10 +66,10 @@ class CrmHandler
               $responsible = $item->get('responsible')->getValue();
 
               //Debug::writeToFile($zayavkaId, 'zayavkaId', "/local/app/Events/log_Iblock3.txt");
- 
+               
             //Если различаются данные в найденном инфоблоке то меняем его
             if(($Client_id!=$entityResult['COMPANY_ID']) || ($summ != $entityResult['OPPORTUNITY']) || ($responsible != $entityResult['ASSIGNED_BY_ID'])){
-              
+               
                //Поменять поле Name как выяснилось не так то просто. Для этого надо использовать метод update
               $name_arr = ["NAME" =>  'Заявка была изменена в '. date('d.m.Y H:i:s')];
               \Bitrix\Iblock\Elements\ElementZayavkiTable::update($zayavkaId, $name_arr);
@@ -84,7 +84,7 @@ class CrmHandler
               
               if(\Bitrix\Main\Loader::IncludeModule('iblock')) {
                  
-	            \CIBlockElement::SetPropertyValuesEx(180, $iblockId, $SetProperty_arr);
+	            \CIBlockElement::SetPropertyValuesEx($zayavkaId, $iblockId, $SetProperty_arr);
 
               } 
                
