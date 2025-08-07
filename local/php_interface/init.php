@@ -56,14 +56,17 @@ $eventManager->addEventHandler(
 
 // обработчик событий инфоблока
  //$eventManager->addEventHandler("iblock", "OnBeforeIBlockElementAdd", ['Events\IblockHandler', 'onElementBeforeAdd']);
- $eventManager->addEventHandler("iblock", "OnBeforeIBlockElementUpdate", ['Events\IblockHandler', 'onElementBeforeUpdate']);
+ //$eventManager->addEventHandler("iblock", "OnBeforeIBlockElementUpdate", ['Events\IblockHandler', 'onElementBeforeUpdate']);
+ //$eventManager->AddEventHandler("iblock", "OnAfterIBlockElementAdd", ['Events\IblockHandler', 'onElementBeforeUpdate']);
+$eventManager->AddEventHandler("iblock", "OnAfterIBlockElementUpdate", ['Events\IblockHandler', 'onElementAfterUpdate']);
  //$eventManager->addEventHandler("iblock", "OnAfterIBlockElementUpdate", ['Events\IblockHandler', 'onElementAfterUpdate']);
  //$eventManager->addEventHandler("iblock", "OnBeforeIBlockElementDelete", ['Events\IblockHandler', 'onElementBeforeDelete']);
 
 
 // обработчик событий CRM
-
+//
 //$eventManager->addEventHandler("crm","OnBeforeCrmDealUpdate", ['Events\CrmHandler', 'MyonElementBeforeUpdate']);
+
 $eventManager->addEventHandler("crm","OnAfterCrmDealUpdate", ['Events\CrmHandler', 'MyonElementAfterUpdate']);
  //$eventManager->addEventHandler("crm","\Bitrix\Crm\Timeline\Entity\Timeline::OnBeforeAdd", ['Events\OrmHandler', 'onTimelineBeforeAdd']);
  //$eventManager->addEventHandler("crm","\Bitrix\Crm\Timeline\Entity\Timeline::OnBeforeAdd", ['Events\OrmHandler', 'onTimelineBeforeUpdate']);

@@ -24,11 +24,12 @@ class IblockHandler
         //
     }
 
-    public static function onElementBeforeUpdate(&$arFields)
+    public static function onElementAfterUpdate(&$arFields)
     {
        \Bitrix\Main\Loader::includeModule('iblock');
        if ($arFields["IBLOCK_ID"] != 29)
             return $arFields;
+        //Debug::writeToFile($arFields, 'IBLOCK_arFields', "/local/app/Events/log_Iblock3.txt");
         $arFields['NAME'] = 'Заявка изменена в ' . date('d.m.Y H:i:s');
         //Получим поля инфоблока Заявки IBLOCK_ID = 29
         $element_id = $arFields['ID'];
@@ -96,30 +97,15 @@ class IblockHandler
        //Debug::writeToFile($arFields, 'onElementBeforeUpdate', '\local\log_Iblock.log');
     }
 
-    public static function onElementAfterUpdate(&$arFields)
+    /*public static function OnAfterIBlockElementAddHandler(&$arFields)
     {
-//        file_put_contents($_SERVER['DOCUMENT_ROOT'].'/logIAU.txt', 'FIELDS: '.var_export($arFields, true).PHP_EOL, FILE_APPEND);
+      \Bitrix\Main\Loader::includeModule('iblock');
+       if ($arFields["IBLOCK_ID"] != 30)
+            return $arFields;
+      
+    }*/
 
-       /* if (!Loader::includeModule('im')) // отправляем пользователю сообщение в чат
-            return;
-
-        $messageId = \CIMMessage::Add([
-            'TO_USER_ID' => 1,
-            'FROM_USER_ID' => 3, // Анна Делова
-            'MESSAGE' => 'Привет'.' '.$arFields['NAME'],
-        ]);*/
-          
-        
-         
-
-//        if (!$messageId) {
-//            if ($exception = $GLOBALS['APPLICATION']->GetException()) {
-//                file_put_contents($_SERVER['DOCUMENT_ROOT'].'/logIAU.txt', 'ERROR: '.var_export($exception->GetString(), true).PHP_EOL, FILE_APPEND);
-//            } else {
-//                file_put_contents($_SERVER['DOCUMENT_ROOT'].'/logIAU.txt', 'UNKNOWN_ERROR'.PHP_EOL, FILE_APPEND);
-//            }
-//        }
-    }
+     
 
     public static function onElementBeforeDelete(&$id)
     {
