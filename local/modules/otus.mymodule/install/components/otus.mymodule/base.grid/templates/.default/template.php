@@ -15,6 +15,11 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 
 \Bitrix\Main\Loader::includeModule('ui');
 
+//echo 'TEMPLATE';
+ 
+//pr($arParams); 
+//pr($arResult);  
+
  
 $APPLICATION->IncludeComponent(
 	'bitrix:main.ui.grid',
@@ -65,3 +70,57 @@ if (!empty($arParams['AJAX_LOADER'])) { ?>
         });
     </script>
 <?php } ?>
+ 
+<?php
+
+CJSCore::Init(['popup']);
+?>
+<script>
+    function openFormPopup(mashine_id)
+    {
+        var cont = ajaxcontentload(mashine_id);
+		//console.log('cont '+cont);
+		//console.log(mashine_id);
+        var authPopup = BX.PopupWindowManager.create("FormPopup", mashine_id,  {
+            //console.log(al);
+            //content: 'Контент, отображаемый в теле окна'
+            
+            width: 500, // ширина окна
+            height: 300, // высота окна
+            zIndex: 100, // z-index
+            autoHide: true,
+            offsetLeft: 0,
+            offsetTop: 0,
+            resizable: true,
+            overlay : true,
+            draggable: {restrict:true},
+            closeByEsc: true,
+            closeIcon: { right : "12px", top : "10px"},
+            titleBar: 'История заявок:',
+            content: '<div id="History"></div>',
+             
+        });
+
+        authPopup.show();
+    }
+
+    function ajaxcontentload(mashine_id){
+        //var mashine_id= document.getElementById('mashine_id').value;
+                
+        var request = new XMLHttpRequest();
+          function reqReadyStateChange() {
+           if (request.readyState == 4 && request.status == 200)
+              
+			document.getElementById("History").innerHTML= request.responseText;
+          }
+ 
+       //var goToUrl= '<?=$component->getPath()?>/Mashines_history.php';
+	   var goToUrl= '/local/ajax/Mashines_history.php';
+       var body= 'mashine_id='+mashine_id;
+       request.open("POST", goToUrl);
+       request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+       request.onreadystatechange = reqReadyStateChange;
+       request.send(body);
+    }
+ 
+</script>

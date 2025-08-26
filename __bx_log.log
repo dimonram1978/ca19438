@@ -630,3 +630,3181 @@ Array
 )
 
 
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "18"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=e2d21b84e05b5c333269510290a2beaa"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "18"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_18"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "19"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=cbe15531a5435e12eeb4bb6b59d16387"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "19"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_19"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=baa16d944b1e70896879bb0d262c677f"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=900ccf6fa7202255334bde9627c52e99"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=900ccf6fa7202255334bde9627c52e99"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "22"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "22"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_22"
+      }
+    }
+  }
+}
+
+
+array(3) {
+  ["ORM"]=>
+  string(24) "Models\ModuleCustomTable"
+  ["DEAL_ID"]=>
+  string(2) "20"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=7938042fa6e82c26a8fcd6a7a5c9f7fb"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(2) {
+          ["ORM"]=>
+          string(24) "Models\ModuleCustomTable"
+          ["DEAL_ID"]=>
+          string(2) "20"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_20"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["DEAL_ID"]=>
+  string(2) "16"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["DEAL_ID"]=>
+          string(2) "16"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_16"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["client_id"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["client_id"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "8"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "8"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_8"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "11"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "11"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_11"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "8"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "8"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_8"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "11"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1f15622d68977a6b3b91f592cc9d3bd8"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "11"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_11"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "8"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=1ccd5fe9c62a21ccc697fb3fb95fc409"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "8"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_8"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=085a6514b1df35170e6abf9556362af4"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=085a6514b1df35170e6abf9556362af4"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "10"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=085a6514b1df35170e6abf9556362af4"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "10"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_10"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=085a6514b1df35170e6abf9556362af4"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "15"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=085a6514b1df35170e6abf9556362af4"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "15"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_15"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "12"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=6ff1cf12965163645b171abb25a180da"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "12"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_12"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "12"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=6ff1cf12965163645b171abb25a180da"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "12"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_12"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=4959872f0bf27680ed7f3fc8afa8d173"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=ebca76f3a1763644f8c56a80a85afba3"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "12"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=ebca76f3a1763644f8c56a80a85afba3"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "12"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_12"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=2595b5f3b984c527294644b277f4184e"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=2595b5f3b984c527294644b277f4184e"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "12"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=2595b5f3b984c527294644b277f4184e"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "12"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_12"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=2595b5f3b984c527294644b277f4184e"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3ca3c5ba0a249a63f849f5d17985da6a"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3ca3c5ba0a249a63f849f5d17985da6a"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3ca3c5ba0a249a63f849f5d17985da6a"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3ca3c5ba0a249a63f849f5d17985da6a"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3ca3c5ba0a249a63f849f5d17985da6a"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "10"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3ca3c5ba0a249a63f849f5d17985da6a"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "10"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_10"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "10"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3ca3c5ba0a249a63f849f5d17985da6a"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "10"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_10"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3ca3c5ba0a249a63f849f5d17985da6a"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=59b1f648856c3e7448af325c8cea53ed"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=3a25ff9bcb653df45295d00164776757"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "13"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "13"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_13"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "15"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "15"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_15"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "14"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "14"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_14"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "12"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=8f69206ec29ecdeef8cfe3ed66e356e7"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "12"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_12"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "13"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=265f3d3e754d63604ae13c263806e9dc"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "13"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_13"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "13"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=265f3d3e754d63604ae13c263806e9dc"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "13"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_13"
+      }
+    }
+  }
+}
+
+

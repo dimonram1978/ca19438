@@ -23,7 +23,7 @@ use Bitrix\Main\Context,
 	Bitrix\Iblock;
 use Bitrix\Main\Engine\Contract;
 use Models\ClientsTable as Clients;
-
+use Bitrix\Main\Diag\Debug;
 
 
 class TableViewsComponent extends \CBitrixComponent
@@ -52,6 +52,7 @@ class TableViewsComponent extends \CBitrixComponent
                 'name' => $field->getTitle()
             );
         }
+        //Debug::writeToFile($columns, '$columns', "/local/app/Events/log_Iblock3.txt");
         return $columns;
     }
 
@@ -110,7 +111,7 @@ class TableViewsComponent extends \CBitrixComponent
             $this->arResult['NUM_PAGE'] = (empty($this->arParams['NUM_PAGE']))? 20 : $this->arParams['NUM_PAGE'];
             $this->arResult['LISTS'] = $this->getList($page, $this->arResult['NUM_PAGE']); // получаем записи таблицы
             $this->arResult['COUNT'] =  Clients::getCount(); // количество записей         
-
+ 
             // подключаем шаблон
             $this->IncludeComponentTemplate();
 

@@ -7,7 +7,7 @@ use Bitrix\Main\Loader;
 use Models\ModuleCustomTable as ModuleCustom;
 use Bitrix\Crm\DealTable;
 use Bitrix\Main\Grid\Options as GridOptions;
-
+use Bitrix\Main\Diag\Debug;
 use \Bitrix\Main\UI\PageNavigation;
 //use Bitrix\Currency\CurrencyTable;
 
@@ -20,57 +20,130 @@ class OtusMyModuleComponent extends \CBitrixComponent
 
   const PAGE_SIZE = 15;
 
-  public function onPrepareComponentParams($arParams) {
-       // тут пишем логику обработки параметров, дополнение к параметрам по умолчанию
-       return $arParams;
+     private function getGridColumns()
+  {
+    $columns = [
+	     ['id' => 'ID', 'name' => 'ID'], 
+         ['id' => 'NAME', 'name' => 'Название машины'],
+	       ['id' => 'Client_id', 'name' => 'id клиента'], 
+         ['id' => 'car_id', 'name' => 'id машины клиента'], 
+         ['id' => 'CAR', 'name' => 'Машина клиента'], 
+         ['id' => 'MODEL', 'name' => 'Марка машины'], 
+         ['id' => 'Year_prod', 'name' => 'Год производства'], 
+         ['id' => 'COLOR', 'name' => 'Цвет машины'],
+         ['id' => 'mileage', 'name' => 'Пробег'],
+        ];
+ 
+        return $columns;
   }
 
-  private function getListMassiv($DEAL_ID=null)
-  {
-
-      
-        /*$list = [];
-        $data = ModuleCustom::getList([
-            'select'=>[
-                       'id',
-		                   'cars_id',
-                       'CARS',
-                       'deal_id',],
-            'filter' => ['deal_id' => $DEAL_ID],
-
-        ])->fetchCollection();*/
-      if (!empty($DEAL_ID) || ($DEAL_ID!=null)){ 
-        $list = [];
-        $data = ModuleCustom::getList([
-            'select'=>[
-                       'id',
-		                   'cars_id',
-                       'CARS',
-                       'deal_id',],
-            'filter' => ['deal_id' => $DEAL_ID],
-
-        ])->fetchCollection();
-         
-     }
-     else{
+    //Создам другую функцию т.к. эта не выводит для multyply значения
+    private function getList($clientId=null)
+    {
        $list = [];
-        $data = ModuleCustom::getList([
-            'select'=>[
-                       'id',
-		                   'cars_id',
-                       'CARS',
-                       'deal_id',],
-            //'filter' => ['deal_id' => $DEAL_ID],
-
+      // Debug::writeToFile($clientId , '$clientId', "/local/app/Events/log_Iblock3.txt");
+      if (!empty($clientId) || ($clientId!=null)){ 
+        $obj_arr = \Bitrix\Iblock\Elements\ElementGarageTable::getList([
+            'select' => ['ID','NAME','Client_id','CAR.ID','CAR.NAME','CAR.model_name','CAR.Year_prod','CAR.COLOR','CAR.mileage'],//,'UF_LASTNAME','UF_PHONE','UF_JOBPOSITION','UF_SCORE'
+            'filter' => ['IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE' => $clientId],
+            'runtime' => ['CAR' => [
+               'data_type' => \Bitrix\Iblock\Elements\ElementCustomerCarsTable::class,
+               'reference' => [
+                '=this.car_id.ELEMENT.ID' => 'ref.ID',
+                ]
+              ],
+            ],
         ])->fetchCollection();
+      }
+      else{
+         $obj_arr = \Bitrix\Iblock\Elements\ElementGarageTable::getList([
+            'select' => ['ID','NAME','Client_id','CAR.ID','CAR.NAME','CAR.model_name','CAR.Year_prod','CAR.COLOR','CAR.mileage'],//,'UF_LASTNAME','UF_PHONE','UF_JOBPOSITION','UF_SCORE'
+            'runtime' => ['CAR' => [
+               'data_type' => \Bitrix\Iblock\Elements\ElementCustomerCarsTable::class,
+               'reference' => [
+                '=this.car_id.ELEMENT.ID' => 'ref.ID',
+                ]
+              ],
+            ],
+        ])->fetchCollection(); 
 
-     }
+      }
+        foreach ($obj_arr as $key => $record){
+           
+	       $list[] = array('data' =>  [
+             'ID' => $record->getid(), 
+             'NAME' => $record->getName(),
+             'Client_id' => $record->getClient_id()->getvalue(),
+             'Car_id' => $record->get('CAR')->getId(),
+			       'CAR' => $record->get('CAR')->getname(),
+             'MODEL' => $record->get('CAR')->getmodel_name()->getvalue(),
+             'Year_prod' => $record->get('CAR')->getYear_prod()->getvalue(),
+             'COLOR' => $record->get('CAR')->getColor()->getvalue(),
+             'mileage' => $record->get('CAR')->getmileage()->getvalue(),
+            ]);  
+
+        }
+         
+         
+        return $list;
+    }
+    // Функция выводит массив для multipky значаний свойств
+    private function getList_multiply($clientId=null)
+    {
+       
+       
+      if (!empty($clientId) || ($clientId!=null)){ 
+        $obj_arr = \Bitrix\Iblock\Elements\ElementGarageTable::getList([
+            'select' => ['ID','NAME','Client_id','Car_id','car_id.ELEMENT.NAME','car_id.ELEMENT.model_name','car_id.ELEMENT.Year_prod','car_id.ELEMENT.COLOR','car_id.ELEMENT.mileage'],
+            'filter' => ['IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE' => $clientId],
+            'runtime' => ['CAR' => [
+               'data_type' => \Bitrix\Iblock\Elements\ElementCustomerCarsTable::class,
+               'reference' => [
+                '=this.car_id.ELEMENT.ID' => 'ref.ID',
+                ]
+              ],
+            ],
+        ])->fetchCollection();
+      }
+      else{
+         $obj_arr = \Bitrix\Iblock\Elements\ElementGarageTable::getList([
+            'select' => ['ID','NAME','Client_id','Car_id','car_id.ELEMENT.NAME','car_id.ELEMENT.model_name','car_id.ELEMENT.Year_prod','car_id.ELEMENT.COLOR','car_id.ELEMENT.mileage'],
+            'runtime' => ['CAR' => [
+               'data_type' => \Bitrix\Iblock\Elements\ElementCustomerCarsTable::class,
+               'reference' => [
+                '=this.car_id.ELEMENT.ID' => 'ref.ID',
+                ]
+              ],
+            ],
+        ])->fetchCollection(); 
+
+      }
+        $list = [];
+        foreach ($obj_arr as $key => $record){
+           
+	         
+          foreach($record->get('Car_id')->getAll() as $prItem) { 
+            $list[] = array('data' =>  [
+		          'ID' => $record->getid(), 
+		          'NAME' => $record->getName(),
+		          'Client_id' => $record->getClient_id()->getvalue(),
+              'Car_id' => $prItem->getElement()->getid(),
+		          //'CAR' => $prItem->getElement()->getName(),
+              'CAR' => '<a href="javascript:void(0)" onclick="openFormPopup('.$prItem->getElement()->getid().')" class="recall">'.$prItem->getElement()->getName().'</a>',
+              //'CAR' => '<a href="javascript:void(0)" onclick="ajaxcontentload('.$prItem->getElement()->getid().')" class="recall">'.$prItem->getElement()->getName().'</a>',
+              'MODEL' => $prItem->getElement()->getmodel_name()->getvalue(),
+              'Year_prod' => $prItem->getElement()->getYear_prod()->getvalue(),
+              'COLOR' => $prItem->getElement()->getColor()->getvalue(),
+              'mileage' => $prItem->getElement()->getmileage()->getvalue(),
+          ]); 
+           
+        }
+      }   
+
       
-
-
-     return $data;
-  } 
-
+        // Debug::writeToFile($list, 'list', "/local/app/Events/log_Iblock7.txt");
+        return $list;
+    }
    
     public function executeComponent() {
 
@@ -102,45 +175,29 @@ class OtusMyModuleComponent extends \CBitrixComponent
 
 	             $nav->initFromUri();
                
-              
-             if (isset($this->arParams['DEAL_ID'])) {
+            //Debug::writeToFile($this->arParams , '$arParams', "/local/app/Events/log_Iblock3.txt");
+             if (isset($this->arParams['clientId'])) {
                 
-               $DEAL_ID = $this->arParams['DEAL_ID'];
+               $clientId = $this->arParams['clientId'];
                
              } 
-             else {$DEAL_ID=null;} 
+             else {$clientId=null;} 
          
-            $elements = $this->getEntity($DEAL_ID);
- 
+             
              
             $page_size = $this->arParams['PAGE_SIZE'] ?? self::PAGE_SIZE;
              
-            $grid_rows = [];
-
-            foreach ($elements as $element) {
-              $prepared_element = $this->getPreparedElement($element);
-
-             // $actions = $this->getElementActions($element);
-
-             $row = [
-               'id' => $element['ID'],
-               'data' => $element,
-               'columns' => $prepared_element,
-               'editable' => 'Y',
-               //'actions' => $actions
-              ];
-
-             $grid_rows[] = $row;
-            }
+             
  
             $this->arResult['NAV'] = $nav;
     
             $this->arResult['GRID_ID'] = $grid_id;
             $this->arResult['GRID_FILTER'] = $grid_filter;
             $this->arResult['GRID_COLUMNS'] = $this->getGridColumns();
-            $this->arResult['ROWS'] = $grid_rows;
+            //$this->arResult['ROWS'] = $grid_rows;
+            //$this->arResult['ROWS'] = $this->getList($clientId); 
+            $this->arResult['ROWS'] = $this->getList_multiply($clientId); 
 
-    
             // подключаем шаблон
             $this->IncludeComponentTemplate();
 
@@ -152,90 +209,6 @@ class OtusMyModuleComponent extends \CBitrixComponent
 
     }
 
-    public function getPreparedElement($fields)
-    {
-       //$fields['ACTIVE'] = $fields['ACTIVE'] == 'Y' ? 'Пользователь активен' : 'Пользователь не активен';
-  
-       return $fields;
-    }
 
-    public function getEntity($DEAL_ID)
-    {
-       
-             $ArrObj = $this->getListMassiv($DEAL_ID);
-             $ArrMass = [];
-             foreach ($ArrObj as $key => $record) {
-                $arSelect = array(
-                   "ID",
-                   "TITLE",
-                   "COMPANY_ID",    
-                    //UF_CRM_PROGRAMMER, //пользовательское свойство   
-                   "STAGE_ID"
-                );            
-                $arFilter = array(
-                 "ID"=> $record->getdeal_id(), //выбираем определенную сделку по ID
-                );
-
-
-                $arDeals=DealTable::getList([
-                  'order'=>['ID' => 'DESC'],
-                  'filter'=>$arFilter,
-                  'select'=>$arSelect,
-                  //'cache' => ['ttl' => 3600]
-                ])->fetch();
-                 //pr($arDeals);
-                 
-                if (isset ($arDeals['ID'])) {$deal_id=$arDeals['ID'];}
-                if (isset ($arDeals['TITLE'])) {$deal_TITLE=$arDeals['TITLE'];} 
-                if (isset ($arDeals['COMPANY_ID'])) {$deal_COMPANY_ID=$arDeals['COMPANY_ID'];} 
-                
-                if (isset ($arDeals['STAGE_ID'])) {$deal_STAGE_ID=$arDeals['STAGE_ID'];}
-                 
-              
-                $ArrMass[] = [
-                  "ID" => $record->getid(), 
-                  "cars_id" => $record->getcars_id(),
-                  "cars_name" => $record->getCars()->getName(),
-                  "deal_id" => $deal_id,
-                  "deal_TITLE" => $deal_TITLE,
-                  "deal_COMPANY_ID" => $deal_COMPANY_ID,
-                  "deal_STAGE_ID" => $deal_STAGE_ID
-                ];
-                 
-             }
-  //pr($ArrMass);
-       return $ArrMass;
-    }
-
-
- private function getGridColumns()
- {
-    $columns = [
-	   ['id' => 'ID', 'name' => 'ID', 'sort' => 'ID', 'default' => true], 
-	   ['id' => 'cars_id', 'name' => 'cars_id', 'sort' => 'cars_id', 'default' => true], 
-	   ['id' => 'cars_name', 'name' => 'Марка машины', 'sort' => 'cars_name', 'default' => true], 
-	   ['id' => 'deal_id', 'name' => 'deal_id', 'sort' => 'deal_id', 'default' => true], 
-	   ['id' => 'deal_TITLE', 'name' => 'Сделка', 'sort' => 'deal_TITLE', 'default' => true], 
-	   ['id' => 'deal_COMPANY_ID', 'name' => 'deal_COMPANY_ID', 'sort' => 'deal_COMPANY_ID', 'default' => true],
-     ['id' => 'deal_STAGE_ID', 'name' => 'deal_STAGE_ID', 'sort' => 'deal_STAGE_ID', 'default' => true],  
-   ];
-
-    return $columns;
- }
- private function getFilterFields()
-{
-    $filterFields = [
-        [
-            
-            'cars_name' => 'Марка машины',
-            'deal_TITLE' => 'Сделка',
-            'default' => true
-        ],
-         
-    ];
-
-    return $filterFields;
-}
- 
 } 
  

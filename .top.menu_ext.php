@@ -10,6 +10,7 @@ if (SITE_TEMPLATE_ID !== "bitrix24")
 }
 
 use Bitrix\Intranet\Binding\Marketplace;
+use Bitrix\Intranet\Integration\Socialnetwork\Collab\CollabProviderData;
 use Bitrix\Intranet\Site\Sections\AutomationSection;
 use \Bitrix\Landing\Rights;
 use Bitrix\Main\Loader;
@@ -106,7 +107,7 @@ if ($GLOBALS["USER"]->IsAuthorized() && Loader::includeModule("socialnetwork"))
 					"tasks_panel_menu",
 					SITE_DIR."company/personal/user/".$userId."/tasks/"
 				),
-				"sub_link" => SITE_DIR."company/personal/user/".$userId."/tasks/task/edit/0/?ta_sec=left_menu&ta_el=create_button",
+				"sub_link" => SITE_DIR."company/personal/user/".$userId."/tasks/task/edit/0/?ta_sec=left_menu&ta_el=create_button&miniform=true",
 				"top_menu_id" => "tasks_panel_menu",
 			],
 			"CBXFeatures::IsFeatureEnabled('Tasks')"
@@ -119,17 +120,17 @@ if ($GLOBALS["USER"]->IsAuthorized() && Loader::includeModule("socialnetwork"))
 		|| CBXFeatures::IsFeatureEnabled('CompanyCalendar')
 	)
 	{
+		$calendarPath = SITE_DIR . "company/personal/user/" . $userId . "/calendar/";
 		$arMenuB24[] = array(
 			GetMessage("TOP_MENU_CALENDAR"),
-			SITE_DIR."calendar/",
+			defined('AIR_SITE_TEMPLATE') ? $calendarPath : SITE_DIR . "calendar/",
 			array(
-				SITE_DIR."company/personal/user/".$userId."/calendar/",
-				SITE_DIR."calendar/"
+				defined('AIR_SITE_TEMPLATE') ? SITE_DIR . "calendar/" : $calendarPath,
 			),
 			array(
-				"real_link" => getLeftMenuItemLink(
+				"real_link" => defined('AIR_SITE_TEMPLATE') ? null : getLeftMenuItemLink(
 					"top_menu_id_calendar",
-					$allowedFeatures["calendar"] && CBXFeatures::IsFeatureEnabled('Calendar') ? SITE_DIR."company/personal/user/".$userId."/calendar/" : SITE_DIR."calendar/"
+					$allowedFeatures["calendar"] && CBXFeatures::IsFeatureEnabled('Calendar') ? $calendarPath : SITE_DIR."calendar/"
 				),
 				"menu_item_id" => "menu_calendar",
 				"counter_id" => "calendar",
@@ -158,18 +159,17 @@ if ($GLOBALS["USER"]->IsAuthorized() && Loader::includeModule("socialnetwork"))
 
 		$arMenuB24[] = array(
 			GetMessage("TOP_MENU_DISK"),
-			SITE_DIR."docs/",
+			defined('AIR_SITE_TEMPLATE') ? $diskPath : SITE_DIR . "docs/",
 			array(
-				$diskPath,
-				SITE_DIR."docs/",
+				defined('AIR_SITE_TEMPLATE') ? SITE_DIR . "docs/" : $diskPath,
 				SITE_DIR."company/personal/user/".$userId."/disk/volume/",
 				SITE_DIR."company/personal/user/".$userId."/disk/"
 			),
 			array(
-				"real_link" => getLeftMenuItemLink(
-					"top_menu_id_docs",
-					CBXFeatures::IsFeatureEnabled('PersonalFiles') ? $diskPath : SITE_DIR."docs/"
-				),
+				"real_link" =>
+					defined('AIR_SITE_TEMPLATE')
+						? null
+						: getLeftMenuItemLink("top_menu_id_docs", CBXFeatures::IsFeatureEnabled('PersonalFiles') ? $diskPath : SITE_DIR."docs/"),
 				"menu_item_id" => "menu_files",
 				"top_menu_id" => "top_menu_id_docs",
 			),
@@ -187,10 +187,22 @@ if ($GLOBALS["USER"]->IsAuthorized() && Loader::includeModule("socialnetwork"))
 				""
 			);
 		}
+		if ($diskEnabled === "Y" && \Bitrix\Main\Config\Option::get('disk', 'boards_enabled', 'N') === 'Y')
+		{
+			$arMenuB24[] = array(
+				GetMessage("TOP_MENU_DISK_BOARDS"),
+				SITE_DIR . '/company/personal/user/' . $userId . '/disk/boards/?c_section=left_menu',
+				[],
+				array(
+					"menu_item_id" => "menu_boards",
+				),
+				""
+			);
+		}
 	}
 }
 
-if (Loader::includeModule("crm") && CCrmPerms::IsAccessEnabled())
+if (\Bitrix\Intranet\Integration\Crm::getInstance()->canReadSomeItemsInCrm())
 {
 	$counterId = CCrmSaleHelper::isWithOrdersMode() ? 'crm_all' : 'crm_all_no_orders';
 	$arMenuB24[] = [
@@ -199,7 +211,6 @@ if (Loader::includeModule("crm") && CCrmPerms::IsAccessEnabled())
 		[
 			SITE_DIR."crm/",
 			ModuleManager::isModuleInstalled('bitrix24') ? "/contact_center/" : SITE_DIR . "services/contact_center/",
-			SITE_DIR . 'bi/dashboard/',
 		],
 		[
 			"real_link" => \Bitrix\Crm\Settings\EntityViewSettings::getDefaultPageUrl(),
@@ -225,6 +236,27 @@ else
 			"top_menu_id" => "top_menu_id_contact_center",
 		],
 		"",
+	];
+}
+
+if (Loader::includeModule('booking') && \Bitrix\Booking\Service\BookingFeature::isOn())
+{
+	$counterId = 'booking_total';
+
+	$arMenuB24[] = [
+		GetMessage("TOP_MENU_BOOKING"),
+		"/booking/",
+		[],
+		[
+			"real_link" => getLeftMenuItemLink(
+				"top_menu_id_booking",
+				"/booking/"
+			),
+			"counter_id" => $counterId,
+			"menu_item_id" => "menu_booking",
+			"top_menu_id" => "top_menu_id_booking",
+		],
+		""
 	];
 }
 
@@ -328,41 +360,74 @@ if (CModule::IncludeModule('im'))
 }
 
 if (
+	ToolsManager::getInstance()->checkAvailabilityByToolId('collab')
+	&& (new CollabProviderData())->isAvailable()
+)
+{
+	$arMenuB24[] = [
+		Loc::getMessage('TOP_MENU_IM_MESSENGER_COLLAB'),
+		'/online/?IM_COLLAB',
+		[],
+		[
+			'menu_item_id' => 'menu_im_collab',
+			'can_be_first_item' => false
+		],
+		'CBXFeatures::IsFeatureEnabled("WebMessenger")',
+	];
+}
+
+if (
 	Loader::includeModule('sign')
 	&& method_exists(\Bitrix\Sign\Config\Storage::class, 'isB2eAvailable')
 	&& \Bitrix\Sign\Config\Storage::instance()->isB2eAvailable()
 )
 {
 	$counterId = '';
+	$isCurrentUserHaveAccess = true;
 	$signContainer = \Bitrix\Sign\Service\Container::instance();
-	if (method_exists($signContainer, 'getB2eUserToSignDocumentCounterService'))
+	if (method_exists($signContainer, 'getAccessService'))
 	{
-		$counterService = $signContainer->getB2eUserToSignDocumentCounterService();
-		if (method_exists($counterService, 'getCounterId'))
+		$isCurrentUserHaveAccess = $signContainer->getAccessService()->isCurrentUserHaveAccessToB2eSign();
+	}
+
+	if ($isCurrentUserHaveAccess)
+	{
+		if (method_exists($signContainer, 'getB2eUserToSignDocumentCounterService'))
 		{
-			$counterId = $counterService->getCounterId();
+			$counterService = $signContainer->getB2eUserToSignDocumentCounterService();
+			if (method_exists($counterService, 'getCounterId'))
+			{
+				$counterId = $counterService->getCounterId();
+			}
 		}
-	}
 
-	$menuSignB2eTitle = Loc::getMessage('TOP_MENU_SIGN_B2E');
-	if (\Bitrix\Main\Application::getInstance()->getLicense()->getRegion() === 'ru')
-	{
-		IncludeModuleLangFile($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/intranet/public/.top.menu_ext.ru_region.php");
-		$menuSignB2eTitle = Loc::getMessage('TOP_MENU_SIGN_B2E_GOSKEY');
-	}
+		if (enum_exists(\Bitrix\Sign\Type\CounterType::class))
+		{
+			$counterId = \Bitrix\Sign\Type\CounterType::SIGN_B2E_MY_DOCUMENTS->value;
+		}
 
-	$arMenuB24[] = [
-		$menuSignB2eTitle,
-		SITE_DIR . 'sign/b2e/',
-		[],
-		[
-			'counter_id' => $counterId,
-			'menu_item_id' => 'menu_sign_b2e',
-			'my_tools_section' => true,
-			'can_be_first_item' => true,
-		],
-		''
-	];
+		$menuSignB2eTitle = Loc::getMessage('TOP_MENU_SIGN_B2E');
+		if (\Bitrix\Main\Application::getInstance()->getLicense()->getRegion() === 'ru')
+		{
+			IncludeModuleLangFile(
+				$_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/intranet/public/.top.menu_ext.ru_region.php"
+			);
+			$menuSignB2eTitle = Loc::getMessage('TOP_MENU_SIGN_B2E_GOSKEY');
+		}
+
+		$arMenuB24[] = [
+			$menuSignB2eTitle,
+			SITE_DIR . 'sign/b2e/',
+			[],
+			[
+				'counter_id' => $counterId,
+				'menu_item_id' => 'menu_sign_b2e',
+				'my_tools_section' => true,
+				'can_be_first_item' => true,
+			],
+			''
+		];
+	}
 }
 
 if (Loader::includeModule('sign') && \Bitrix\Sign\Config\Storage::instance()->isAvailable())
@@ -396,6 +461,29 @@ if (Loader::includeModule("intranet") && CIntranetUtils::IsExternalMailAvailable
 		),
 		""
 	);
+}
+
+if (
+	Loader::includeModule('biconnector')
+	&& ToolsManager::getInstance()->checkAvailabilityByMenuId('menu_bi_constructor')
+	&& class_exists('\Bitrix\BIConnector\Access\AccessController')
+	&& \Bitrix\BIConnector\Access\AccessController::getCurrent()->check(\Bitrix\BIConnector\Access\ActionDictionary::ACTION_BIC_ACCESS)
+)
+{
+	$arMenuB24[] = [
+		GetMessage('TOP_MENU_BICONNECTOR_CONSTRUCTOR'),
+		'/bi/menu/',
+		[],
+		[
+			'menu_item_id' => 'menu_bi_constructor',
+			'real_link' => getLeftMenuItemLink(
+				'menu_bi_constructor',
+				SITE_DIR . 'bi/dashboard',
+			),
+			'top_menu_id' => 'top_menu_bi_constructor',
+		],
+		'',
+	];
 }
 
 if (Loader::includeModule("socialnetwork"))
@@ -436,10 +524,8 @@ if (Loader::includeModule("socialnetwork"))
 	}
 }
 
-$aboutSectionExists = file_exists($_SERVER['DOCUMENT_ROOT'] . SITE_DIR . 'about/');
-
 $arMenuB24[] = [
-	$aboutSectionExists ? Loc::getMessage('TOP_MENU_COMPANY') : Loc::getMessage('TOP_MENU_COMPANY_SECTION'),
+	Loc::getMessage('TOP_MENU_COMPANY'),
 	SITE_DIR . 'company/',
 	[
 		'/timeman/',
@@ -449,13 +535,15 @@ $arMenuB24[] = [
 	[
 		'real_link' => getLeftMenuItemLink(
 			'top_menu_id_company',
-			SITE_DIR . 'company/vis_structure.php'
+			SITE_DIR . 'company/'
 		),
 		'menu_item_id' => 'menu_company',
 		'top_menu_id' => 'top_menu_id_company',
 		'class' => 'menu-company',
 	],
 ];
+
+$aboutSectionExists = file_exists($_SERVER['DOCUMENT_ROOT'] . SITE_DIR . 'about/');
 
 if ($aboutSectionExists)
 {
@@ -535,8 +623,16 @@ $arMenuB24[] = array(
 	""
 );
 
+if (\Bitrix\Intranet\Integration\Market\Label::isRenamedMarket())
+{
+	$itemLabel = GetMessage('TOP_MENU_MARKETPLACE_3_MSGVER_1');
+}
+else
+{
+	$itemLabel = GetMessage('TOP_MENU_MARKETPLACE_3');
+}
 $arMenuB24[] = array(
-	GetMessage("TOP_MENU_MARKETPLACE_3"),
+	$itemLabel,
 	SITE_DIR.Marketplace::getBoxMainDirectory(),
 	array(SITE_DIR.Marketplace::getBoxMainDirectory()),
 	array(
@@ -565,20 +661,23 @@ $arMenuB24[] = [
 	"IsModuleInstalled('rest')",
 ];
 
-$arMenuB24[] = Array(
-	GetMessage("TOP_MENU_CONFIGS"),
-	SITE_DIR."configs/?analyticContext=left_menu_main",
-	Array(SITE_DIR."configs/?analyticContext=left_menu_main"),
-	Array(
-		"real_link" => getLeftMenuItemLink(
-			"top_menu_id_configs",
-			SITE_DIR."configs/?analyticContext=left_menu_main"
+if (defined('AIR_SITE_TEMPLATE') === false)
+{
+	$arMenuB24[] = Array(
+		GetMessage("TOP_MENU_CONFIGS"),
+		SITE_DIR."configs/?analyticContext=left_menu_main",
+		Array(SITE_DIR."configs/?analyticContext=left_menu_main"),
+		Array(
+			"real_link" => getLeftMenuItemLink(
+				"top_menu_id_configs",
+				SITE_DIR."configs/?analyticContext=left_menu_main"
+			),
+			"menu_item_id" => "menu_configs_sect",
+			"top_menu_id" => "top_menu_id_configs"
 		),
-		"menu_item_id" => "menu_configs_sect",
-		"top_menu_id" => "top_menu_id_configs"
-	),
-	'$USER->IsAdmin()'
-);
+		'$USER->IsAdmin()'
+	);
+}
 
 $manager = \Bitrix\Main\DI\ServiceLocator::getInstance()->get('intranet.customSection.manager');
 $manager->appendSuperLeftMenuSections($arMenuB24);

@@ -12,7 +12,7 @@ use Bitrix\Main\SystemException;
 use Bitrix\Main\IO\InvalidPathException;
 use Bitrix\Main\DB\SqlQueryException;
 use Bitrix\Main\LoaderException;
-
+use Bitrix\Main\Diag\Debug;
 class otus_mymodule extends CModule
 {
     public $MODULE_ID = "otus.mymodule";
@@ -33,14 +33,12 @@ class otus_mymodule extends CModule
     {
         ModuleManager::registerModule($this->MODULE_ID);
         $this->InstallFiles();
-        $this->InstallDB();
         $this->InstallEvents();
     }
 
     public function DoUninstall()
     {
         $this->UninstallFiles();
-        $this->UninstallDB();
         $this->UnInstallEvents();
         ModuleManager::unRegisterModule($this->MODULE_ID);
     }
@@ -50,29 +48,8 @@ class otus_mymodule extends CModule
         //$path_from = $_SERVER["DOCUMENT_ROOT"]."/local/modules/".$this->MODULE_ID."/templates";
         $path_from = $_SERVER["DOCUMENT_ROOT"]."/local/modules/".$this->MODULE_ID."/install/components/".$this->MODULE_ID;
         $path_to =  $_SERVER["DOCUMENT_ROOT"] . "/bitrix/components/".$this->MODULE_ID;
-         
+         //Debug::writeToFile($path_to , '$path_to', "/local/app/Events/log_Iblock3.txt");
         CopyDirFiles($path_from, $path_to, true, true);
-    }
-
-    public  function InstallDB($arParams = []) //создание своих таблиц в БД
-    {   global $DB, $APPLICATION;      
-        //проверяем, есть ли таблицы
-        $errors = false;
-        //создаем таблицы, если они еще не существуют
-        $errors = $DB->RunSQLBatch($_SERVER["DOCUMENT_ROOT"] . "/local/modules/".$this->MODULE_ID."/install/install.sql");
-        if (!empty($errors)){
-            $APPLICATION->ThrowException(implode("", $errors));
-            return false;
-        }
-
-        //Заполним данными
-        $errors = $DB->RunSQLBatch($_SERVER["DOCUMENT_ROOT"] . "/local/modules/".$this->MODULE_ID."/install/entities.sql");
-        if (!empty($errors)){
-            $APPLICATION->ThrowException(implode("", $errors));
-            return false;
-        }
-
-        return true;
     }
  
 
@@ -82,21 +59,6 @@ class otus_mymodule extends CModule
     }
 
     
-    public  function UnInstallDB($arParams = []) //удаление своих таблиц в БД
-    {   global $DB, $DBType, $APPLICATION;
-        
-        //if(array_key_exists("SAVEDATA", $arParams) and $arParams["SAVEDATA"] == "N"){ //удаляем, если параметр сохранить = "N"
-            $errors = false;
-            $errors = $DB->RunSQLBatch($_SERVER["DOCUMENT_ROOT"] . "/local/modules/".$this->MODULE_ID."/install/uninstall.sql");
-            if (!empty($errors)){
-                $APPLICATION->ThrowException(implode("", $errors));
-                return false;
-            }
-        //}
-        
-        return true;
-    }
-
     public function InstallEvents(): void
     {
         $eventManager = EventManager::getInstance();
@@ -105,11 +67,11 @@ class otus_mymodule extends CModule
             'crm',
             'onEntityDetailsTabsInitialized',
             $this->MODULE_ID,
-            '\\Otus\\Mymodule\\Crm\\Handlers',
-            //'updateTabs'
+            '\\Otus\\mymodule\\Crm\\Handlers',
             'myOnEntityDetailsTabsInitialized'
         );
     }
+ 
 
     public function UnInstallEvents(): void
     {
@@ -119,7 +81,7 @@ class otus_mymodule extends CModule
             'crm',
             'onEntityDetailsTabsInitialized',
             $this->MODULE_ID,
-            '\\Otus\\Mymodule\\Crm\\Handlers',
+            '\\Otus\\mymodule\\Crm\\Handlers',
             'myOnEntityDetailsTabsInitialized'
         );
     }

@@ -17,11 +17,13 @@ $nav->setRecordCount($arResult['COUNT']);
 $nav->allowAllRecords(false)->setPageSize($arResult['NUM_PAGE'])->initFromUri();
 
 
-// echo 'TEMPLATE';
-// pr($arParams); 
-// pr($arResult); 
+ echo 'TEMPLATE';
+ 
+ //pr($arParams); 
+ pr($arResult); 
 // pr($templateFolder); 
-// pr($componentPath); 
+//pr($componentPath); 
+//die();
 ?>
 
 

@@ -1,7 +1,7 @@
 <?php
 namespace Otus\Mymodule\Crm;
 
-use Models\ModuleCustomTable as ModuleCustom;
+//use Models\ModuleCustomTable as ModuleCustom;
 use Bitrix\Crm\DealTable;
 //use Aholin\Crmcustomtab\Orm\BookTable;
 use Bitrix\Main\Event;
@@ -11,7 +11,7 @@ use Bitrix\Main\Localization\Loc;
 Loc::loadMessages(__FILE__);
 class Handlers
 {
-   public static function updateTabs(Event $event): EventResult
+   /*public static function updateTabs(Event $event): EventResult
     {
         $entityTypeId = $event->getParameter('entityTypeID');
         $entityId = $event->getParameter('entityID');
@@ -37,7 +37,7 @@ class Handlers
         ];
 
         return new EventResult(EventResult::SUCCESS, ['tabs' => $tabs,]);
-    }
+    }*/
 
     static function myOnEntityDetailsTabsInitialized($event): EventResult 
     {
@@ -48,11 +48,12 @@ class Handlers
 	$entityTypeID = $event->getParameter('entityTypeID');
 	
 	// Проверяем, что открыта карточка именно Сделки
-	if($entityTypeID == \CCrmOwnerType::Deal) {
+	//if($entityTypeID == \CCrmOwnerType::Deal) {
+    if($entityTypeID == \CCrmOwnerType::Contact ) {
 		// Добавляем свою вкладку в массив вкладок
 		$tabs[] = [
 			'id' => 'newTab_'. $entityID,
-			'name' => 'Тестовый grid',
+			'name' => 'Гараж',
 			// Выведим в содержимое новой вкладки ID текущей сделки
 			//'html' => '<b>Содержимое новой вкладки. ID Сделки: '. $entityID .'</b>',
             'enabled' => true,
@@ -65,8 +66,9 @@ class Handlers
                 'componentData' => [
                     'template' => '',
                     'params' => [
-                        'ORM' => ModuleCustom::class,
-                        'DEAL_ID' => $entityID,
+                        //'ORM' => ModuleCustom::class,
+                        'clientId' => $entityID,
+                        //'DEAL_ID' => $entityID,
                     ],
                 ],
             ],

@@ -17,6 +17,9 @@ require dirname(__FILE__) . '/event_handler.php';
 
  // автолоадер проекта
 include_once __DIR__ . '/../app/autoload.php';
+
+
+
  
  function pr($var, $type = false){
     echo '<PRE style=@font-size: 10px; border: 1px solid #000; background: #FF; text-align:left; color:#000;">';
@@ -32,20 +35,16 @@ include_once __DIR__ . '/../app/autoload.php';
 use Bitrix\Main\EventManager;
 $eventManager = EventManager::getInstance();
 
+
+
 //Вешаем обработчик на событие создания списка пользовательских свойств OnUserTypeBuildList
-$eventManager->addEventHandler(
-  'iblock', 'OnIBlockPropertyBuildList',
-   [
-    'UserTypes\CUserTypeTimesheet',
-    'GetUserTypeDescription'
-    ]
-);
+$eventManager->addEventHandler('iblock', 'OnIBlockPropertyBuildList',['UserTypes\CUserTypeTimesheet','GetUserTypeDescription']);
 
 //\Bitrix\Main\UI\Extension::load(['otus_mymodule.greeting-message']);
 
 \Bitrix\Main\UI\Extension::load([
     //'aholin_crmcustomtab.useless_extensions.greeting-message',
-    //'dev_helper.log_events',
+    'dev_helper.log_events',
    //'ajax.all_ajax_handler',
 //    'otus_crm.negative_currency',
     'homework.begin_date_button',
@@ -59,18 +58,30 @@ $eventManager->addEventHandler(
  //$eventManager->addEventHandler("iblock", "OnBeforeIBlockElementUpdate", ['Events\IblockHandler', 'onElementBeforeUpdate']);
  //$eventManager->AddEventHandler("iblock", "OnAfterIBlockElementAdd", ['Events\IblockHandler', 'onElementBeforeUpdate']);
 $eventManager->AddEventHandler("iblock", "OnAfterIBlockElementUpdate", ['Events\IblockHandler', 'onElementAfterUpdate']);
+
  //$eventManager->addEventHandler("iblock", "OnAfterIBlockElementUpdate", ['Events\IblockHandler', 'onElementAfterUpdate']);
  //$eventManager->addEventHandler("iblock", "OnBeforeIBlockElementDelete", ['Events\IblockHandler', 'onElementBeforeDelete']);
 
 
 // обработчик событий CRM
+// пользовательский тип для CRM блока
+/*$eventManager->AddEventHandler('sale', 'registerInputTypes', [
+        'UserTypes\CUserTypeUserMashines', 
+        'GetUserTypeDescription'
+    ]
+);*/
+
+//$eventManager->addEventHandler('crm','onEntityDetailsTabsInitialized','myOnEntityDetailsTabsInitialized');
 //
 //$eventManager->addEventHandler("crm","OnBeforeCrmDealUpdate", ['Events\CrmHandler', 'MyonElementBeforeUpdate']);
-
-$eventManager->addEventHandler("crm","OnAfterCrmDealUpdate", ['Events\CrmHandler', 'MyonElementAfterUpdate']);
+$eventManager->addEventHandler("crm","OnBeforeCrmDealAdd", ['Events\CrmHandler', 'MyonElementBeforeAdd']);
+//$eventManager->addEventHandler("crm","OnBeforeCrmDealUpdate", ['Events\CrmHandler', 'MyonElementBeforeUpdate']);
+//$eventManager->addEventHandler("crm","OnAfterCrmDealUpdate", ['Events\CrmHandler', 'MyonElementBeforeUpdate']);
  //$eventManager->addEventHandler("crm","\Bitrix\Crm\Timeline\Entity\Timeline::OnBeforeAdd", ['Events\OrmHandler', 'onTimelineBeforeAdd']);
  //$eventManager->addEventHandler("crm","\Bitrix\Crm\Timeline\Entity\Timeline::OnBeforeAdd", ['Events\OrmHandler', 'onTimelineBeforeUpdate']);
-
+//добавление свей вкладки в карточку элемента CRM
+//$eventManager->addEventHandler('crm','onEntityDetailsTabsInitialized', ['Events\CrmHandler', 'updateTabs']);//setCustomTabs
+//$eventManager->addEventHandler('crm','onEntityDetailsTabsInitialized', ['Events\CrmHandler', 'myOnEntityDetailsTabsInitialized']);
 
 // обработчик событий highload-блоков
 // $entityName = Events\HlblockHandler::getHlIdByName('BooksList');
@@ -80,3 +91,16 @@ $eventManager->addEventHandler("crm","OnAfterCrmDealUpdate", ['Events\CrmHandler
 // $eventManager = EventManager::getInstance();
 // //$eventManager->addEventHandlerCompatible('main', 'OnProlog', ['Events\DuplicateCounter\Handler', 'duplicateCounter']);
 // $eventManager->addEventHandlerCompatible('main', 'OnEpilog', ['Events\DuplicateCounter\Handler', 'duplicateCounter']);
+ 
+//События изменения количества товара
+//$eventManager->addEventHandler('catalog', '\Bitrix\Catalog\Product::onAfterAdd', ['Events\CrmHandler', 'productChange']);
+
+$eventManager->addEventHandler('catalog', '\Bitrix\Catalog\Product::onAfterUpdate', ['Events\CrmHandler', 'productChange']);
+
+
+ 
+//Агенты
+include_once __DIR__ . '/../Agents/Agent1.php';
+//include_once __DIR__ . '/../Agents/Agent2.php'; 
+
+?>

@@ -52,14 +52,14 @@ $ajaxLoaderParams = [
 ];
 
 $componentParams['AJAX_LOADER'] = $ajaxLoaderParams;
-
+\bitrix\main\diag\debug::dumptofile($componentParams);
 $APPLICATION->IncludeComponent(
     'bitrix:ui.sidepanel.wrapper',
     '',
     [
         'PLAIN_VIEW' => false,
         'USE_PADDING' => true,
-        'POPUP_COMPONENT_NAME' => 'aholin.crmcustomtab:book.grid',
+        'POPUP_COMPONENT_NAME' => 'otus.mymodule:base.grid',
         'POPUP_COMPONENT_TEMPLATE_NAME' => $componentData['template'] ?? '',
         'POPUP_COMPONENT_PARAMS' => $componentParams,
     ],
