@@ -11,36 +11,55 @@ if (empty($_REQUEST['event'])) {
 }
 else {
   // var_dump($_REQUEST['event']);?> <div>Привет мир!22</div> <?php
-   $event = $_REQUEST['event'];
-    $filename = __DIR__ . '/file1.txt'; 
-    file_put_contents($filename, $event);
+  
 }
 if ($_REQUEST['event'] == 'ONCRMACTIVITYADD') {
-    $event = $_REQUEST['event'];
-    $filename = __DIR__ . '/file1.txt'; 
-    file_put_contents($filename, $event); 
-    //Bitrix\Main\Diag\Debug::writeToFile($_REQUEST, '$_REQUEST', __DIR__ . '/file12.txt');
-    //\Bitrix\Main\Diag\Debug::dumpToFile($_REQUEST, '$_REQUEST', "/local/app/Events/log_Iblock6.txt"); 
-    $activityId = $_REQUEST['data']['FIELDS']['ID'];
-    $filename = __DIR__ . '/file2.txt';
- 
-    file_put_contents($filename, serialize($_REQUEST));
-
-    $filename = __DIR__ . '/file3.txt';
- 
-    file_put_contents($filename, $activityId);
-    //@ TODO реализовать получение информации о деле CRM
-    $result = CRest::call(
-        'crm.activity.get',
-        [
-            'ID' => $activityId,
-        ],
-    );
-    $filename = __DIR__ . '/file4.txt';
- 
-    file_put_contents($filename, serialize($result));
-    // @TODO если дело является звонком или сообщением, то обновить поле "Дата коммуникации"
+     
     
+    $activityId = $_REQUEST['data']['FIELDS']['ID'];
+    
+    //@ TODO реализовать получение информации о деле CRM
+   
+   $result = CRest::call(
+    'crm.activity.get',
+      [
+        'id' => $activityId
+      ]
+    );   
+   // @TODO если дело является звонком или сообщением, то обновить поле "Дата коммуникации" 
+    if(array_key_exists('result', $result)){
+       if(array_key_exists('CREATED', $result['result']) && array_key_exists('TYPE_ID', $result['result'])){
+         $date_time = $result['result']['CREATED'];
+         $contact_id = $result['result']['OWNER_ID'];
+         
+   
+         switch ($result['result']['TYPE_ID']){
+           case 2:           
+             //Телефонный звонок
+             $result2 = CRest::call(
+               'crm.contact.update',
+               [
+                'ID' => $contact_id,
+                'FIELDS' => [
+                   'UF_CRM_1756368917' => $date_time,
+                   ] 
+                ]
+             );  
+             case 1:           
+             //Отправка почтового сообщения
+             $result2 = CRest::call(
+               'crm.contact.update',
+               [
+                'ID' => $contact_id,
+                'FIELDS' => [
+                   'UF_CRM_1756368917' => $date_time,
+                   ] 
+                ]
+             );  
+         }
+       }
+    }
+
 }
 
 /*$result = CRest::call('crm.deal.list');
@@ -56,19 +75,20 @@ if ($_REQUEST['event'] == 'ONCRMACTIVITYADD') {
 </ul>
 <?*/
 
-/*//Получить поля сделки
-$arDealFields = CRest::call(
+//Получить поля сделки
+/*$arDealFields = CRest::call(
     "crm.deal.fields",
     []
 );
 
 echo "<pre>";var_dump($arDealFields);echo "</pre>";*/
+
 /*//Создание сделки
 $result = CRest::call(
   "crm.deal.add",
   [
     "fields" => [
-      "TITLE" => "Название сделки",
+      "TITLE" => "Название сделки 33",
       "STAGE_ID" => "NEW",//стадия сделки
       "COMPANY_ID" => 3, //ID компании
       "CONTACT_ID" => 3, //ID контакта

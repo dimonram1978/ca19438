@@ -3808,3 +3808,33 @@ array(2) {
 }
 
 
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=265f3d3e754d63604ae13c263806e9dc"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
