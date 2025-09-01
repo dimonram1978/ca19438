@@ -5,32 +5,10 @@ $APPLICATION->SetTitle("Компонент списка таблицы базы 
 
 use Bitrix\Main\Type;
 
-?>
-<input type="hidden" id='mashine_id' name="mashine_id" value="242"><br><br><br>
-<div id="History"><a href="javascript:void(0)" onclick="ajaxload()" class="recall">Загрузить</a></div>
-<script>
-  function ajaxload()
-  {
-    var mashine_id= document.getElementById('mashine_id').value;
-    console.log(mashine_id);
-    var request = new XMLHttpRequest();
-          function reqReadyStateChange() {
-           if (request.readyState == 4 && request.status == 200)
-              
-			document.getElementById("History").innerHTML= request.responseText;
-          }
- 
-       var goToUrl= '../local/ajax/Mashines_history.php';
-       var body= 'mashine_id='+mashine_id;
-       request.open("POST", goToUrl);
-       request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-       request.onreadystatechange = reqReadyStateChange;
-       request.send(body);
-    
-
-  }
-</script>
-<?
+use Models\OriginalContactsDataTable;
+//
+    $arF = ['ENTITY_ID' => 'CONTACT', 'ELEMENT_ID' => 17, 'VALUE' => 444];
+    OriginalContactsDataTable::add($arF);
 
 // use Models\Lists\CarsPropertyValuesTable as CarsTable;
 // use Models\HospitalClientsTable as Clients;

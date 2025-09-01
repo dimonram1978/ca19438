@@ -5,7 +5,7 @@
   \Bitrix\Main\Loader::includeModule('crm');
   use Bitrix\Crm\DealTable;
 
-  $MASHINE_ID = $_POST['mashine_id'];
+  $MASHINE_ID = intval($_POST['mashine_id']);
   
   $result = DealTable::getList([
     'select' => ['ID', 'TITLE', 'UF_USER_MASHINE', 'OPPORTUNITY', 'CREATED_BY_ID', 'STAGE_ID'], // Укажите нужные вам ID полей

@@ -24,7 +24,7 @@ class CrmHandler
     {
        \Bitrix\Main\Loader::includeModule('crm');
          
-        $deal_id = intval($arFields['ID']);
+        $deal_id = $arFields['ID'];
         $arFilter = array("ID"=>$deal_id);
         //Debug::writeToFile($arFilter, 'AfterUpdate_arFilter', "/local/app/Events/log_Iblock3.txt");
      
@@ -184,18 +184,21 @@ class CrmHandler
    
          global $APPLICATION;
         
-         //
-         if(is_array($arFields) && is_null($arFields['UF_USER_MASHINE'])){
-        //if(is_array($arFields) && !array_key_exists('UF_USER_MASHINE', $arFields) && is_null($arFields['UF_USER_MASHINE'])){
- 
-            $APPLICATION->ThrowException("Вы не заполнили поле - автомобиль клиента!");
-            
-            return false;
+
+         //$APPLICATION->SetTitle("Компонент списка таблицы базы данных");
+          //file_put_contents("/local/app/Events/log_Iblock8.txt", 'PARAMS: ');
+          
+        if(is_array($arFields) || !array_key_exists('UF_USER_MASHINE', $arFields) || is_null($arFields['UF_USER_MASHINE'])){
+         
+          $APPLICATION->ThrowException("Вы не заполнили поле - автомобиль клиента!");
+          return false;  
+             
+        
         }
         else {
             \Bitrix\Main\Loader::includeModule('crm');
             //Debug::writeToFile($arFields['UF_USER_MASHINE'], 'arFields', "/local/app/Events/log_Iblock4.txt");
-            $filter = ['UF_USER_MASHINE' => htmlspecialcharsback($arFields['UF_USER_MASHINE']), '!STAGE_ID' =>'WON'];
+            $filter = ['UF_USER_MASHINE' => $arFields['UF_USER_MASHINE'], '!STAGE_ID' =>'WON'];
             $result = DealTable::getList([
               'select' => ['ID', 'TITLE', 'UF_USER_MASHINE', 'STAGE_ID', 'OPPORTUNITY', 'CREATED_BY_ID'], // Укажите нужные вам ID полей
               'filter' => $filter, // Фильтр по ID сделки
@@ -204,7 +207,7 @@ class CrmHandler
              $kol = $result->getSelectedRowsCount();
               
              if (is_numeric($kol) && $kol>0){
-                
+                //Debug::writeToFile($kol, 'kol2', "/local/app/Events/log_Iblock5.txt");
                 $APPLICATION->ThrowException("Нельзя записать эту форму у вас есть незакрытые заявки по данному автомобилю!");
                 return false;
              }

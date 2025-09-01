@@ -15,10 +15,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true)
 
 \Bitrix\Main\Loader::includeModule('ui');
 
-//echo 'TEMPLATE';
- 
-//pr($arParams); 
-//pr($arResult);  
+  
 
  
 $APPLICATION->IncludeComponent(
@@ -79,11 +76,9 @@ CJSCore::Init(['popup']);
     function openFormPopup(mashine_id)
     {
         var cont = ajaxcontentload(mashine_id);
-		//console.log('cont '+cont);
-		//console.log(mashine_id);
+		
         var authPopup = BX.PopupWindowManager.create("FormPopup", mashine_id,  {
-            //console.log(al);
-            //content: 'Контент, отображаемый в теле окна'
+           
             
             width: 500, // ширина окна
             height: 300, // высота окна
@@ -105,8 +100,7 @@ CJSCore::Init(['popup']);
     }
 
     function ajaxcontentload(mashine_id){
-        //var mashine_id= document.getElementById('mashine_id').value;
-                
+          
         var request = new XMLHttpRequest();
           function reqReadyStateChange() {
            if (request.readyState == 4 && request.status == 200)
@@ -114,7 +108,6 @@ CJSCore::Init(['popup']);
 			document.getElementById("History").innerHTML= request.responseText;
           }
  
-       //var goToUrl= '<?=$component->getPath()?>/Mashines_history.php';
 	   var goToUrl= '/local/ajax/Mashines_history.php';
        var body= 'mashine_id='+mashine_id;
        request.open("POST", goToUrl);

@@ -96,8 +96,8 @@ $eventManager->addEventHandler("crm","OnBeforeCrmDealAdd", ['Events\CrmHandler',
 //$eventManager->addEventHandler('catalog', '\Bitrix\Catalog\Product::onAfterAdd', ['Events\CrmHandler', 'productChange']);
 
 $eventManager->addEventHandler('catalog', '\Bitrix\Catalog\Product::onAfterUpdate', ['Events\CrmHandler', 'productChange']);
-
-
+//Rest методы
+$eventManager->addEventHandler('rest', 'OnRestServiceBuildDescription', ['Events\RestEvents', 'OnRestServiceBuildDescriptionHandler']);
  
 //Агенты
 include_once __DIR__ . '/../Agents/Agent1.php';

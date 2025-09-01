@@ -2,8 +2,8 @@
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true) die();
 
 $arComponentDescription = array(
-    "NAME" => "Тестовый компонент",
-    "DESCRIPTION" => "Тестовый компонент для проверки модуля",
+    "NAME" => GetMessage("NAME"),
+    "DESCRIPTION" => GetMessage("DESCRIPTION"),
     "PATH" => array(
         //"ID" => "custom",
        // "NAME" => "Мои компоненты"

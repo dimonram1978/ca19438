@@ -3838,3 +3838,153 @@ array(2) {
 }
 
 
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=b58409378408c881913b328f22bf6f71"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "10"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=b58409378408c881913b328f22bf6f71"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "10"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_10"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=b58409378408c881913b328f22bf6f71"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(1) "9"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=b58409378408c881913b328f22bf6f71"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(1) "9"
+        }
+        ["TAB_ID"]=>
+        string(8) "newtab_9"
+      }
+    }
+  }
+}
+
+
+array(2) {
+  ["clientId"]=>
+  string(2) "12"
+  ["AJAX_LOADER"]=>
+  array(4) {
+    ["url"]=>
+    string(108) "/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php?site=s1&sessid=4b46002e5af205142c4f9894ade2ffca"
+    ["method"]=>
+    string(4) "POST"
+    ["dataType"]=>
+    string(4) "ajax"
+    ["data"]=>
+    array(1) {
+      ["PARAMS"]=>
+      array(3) {
+        ["template"]=>
+        string(0) ""
+        ["params"]=>
+        array(1) {
+          ["clientId"]=>
+          string(2) "12"
+        }
+        ["TAB_ID"]=>
+        string(9) "newtab_12"
+      }
+    }
+  }
+}
+
+

@@ -9,9 +9,7 @@ use Bitrix\Crm\DealTable;
 use Bitrix\Main\Grid\Options as GridOptions;
 use Bitrix\Main\Diag\Debug;
 use \Bitrix\Main\UI\PageNavigation;
-//use Bitrix\Currency\CurrencyTable;
-
-//Loader::includeModule('currency');
+ 
 
 class OtusMyModuleComponent extends \CBitrixComponent
 {
@@ -19,12 +17,16 @@ class OtusMyModuleComponent extends \CBitrixComponent
   const GRID_ID = 'BASE_GRID';
 
   const PAGE_SIZE = 15;
-
-     private function getGridColumns()
+  /**
+     * Названия колонок таблицы компонента
+      
+     * @return array
+    */
+  private function getGridColumns()
   {
     $columns = [
 	     ['id' => 'ID', 'name' => 'ID'], 
-         ['id' => 'NAME', 'name' => 'Название машины'],
+         ['id' => 'NAME', 'name' => 'Название гаража'],
 	       ['id' => 'Client_id', 'name' => 'id клиента'], 
          ['id' => 'car_id', 'name' => 'id машины клиента'], 
          ['id' => 'CAR', 'name' => 'Машина клиента'], 
@@ -36,15 +38,18 @@ class OtusMyModuleComponent extends \CBitrixComponent
  
         return $columns;
   }
-
-    //Создам другую функцию т.к. эта не выводит для multyply значения
+   
+    
+    //Создам другую функцию т.к. эта не выводит для multyply значения      
+    /**  @return array
+    */
     private function getList($clientId=null)
     {
        $list = [];
-      // Debug::writeToFile($clientId , '$clientId', "/local/app/Events/log_Iblock3.txt");
+      $clientId  = htmlspecialcharsback($clientId);
       if (!empty($clientId) || ($clientId!=null)){ 
         $obj_arr = \Bitrix\Iblock\Elements\ElementGarageTable::getList([
-            'select' => ['ID','NAME','Client_id','CAR.ID','CAR.NAME','CAR.model_name','CAR.Year_prod','CAR.COLOR','CAR.mileage'],//,'UF_LASTNAME','UF_PHONE','UF_JOBPOSITION','UF_SCORE'
+            'select' => ['ID','NAME','Client_id','CAR.ID','CAR.NAME','CAR.model_name','CAR.Year_prod','CAR.COLOR','CAR.mileage'],
             'filter' => ['IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE' => $clientId],
             'runtime' => ['CAR' => [
                'data_type' => \Bitrix\Iblock\Elements\ElementCustomerCarsTable::class,
@@ -57,7 +62,7 @@ class OtusMyModuleComponent extends \CBitrixComponent
       }
       else{
          $obj_arr = \Bitrix\Iblock\Elements\ElementGarageTable::getList([
-            'select' => ['ID','NAME','Client_id','CAR.ID','CAR.NAME','CAR.model_name','CAR.Year_prod','CAR.COLOR','CAR.mileage'],//,'UF_LASTNAME','UF_PHONE','UF_JOBPOSITION','UF_SCORE'
+            'select' => ['ID','NAME','Client_id','CAR.ID','CAR.NAME','CAR.model_name','CAR.Year_prod','CAR.COLOR','CAR.mileage'],
             'runtime' => ['CAR' => [
                'data_type' => \Bitrix\Iblock\Elements\ElementCustomerCarsTable::class,
                'reference' => [
@@ -88,10 +93,12 @@ class OtusMyModuleComponent extends \CBitrixComponent
         return $list;
     }
     // Функция выводит массив для multipky значаний свойств
+    /**  @return array
+    */
     private function getList_multiply($clientId=null)
     {
        
-       
+      $clientId  = htmlspecialcharsback($clientId); 
       if (!empty($clientId) || ($clientId!=null)){ 
         $obj_arr = \Bitrix\Iblock\Elements\ElementGarageTable::getList([
             'select' => ['ID','NAME','Client_id','Car_id','car_id.ELEMENT.NAME','car_id.ELEMENT.model_name','car_id.ELEMENT.Year_prod','car_id.ELEMENT.COLOR','car_id.ELEMENT.mileage'],
@@ -128,9 +135,9 @@ class OtusMyModuleComponent extends \CBitrixComponent
 		          'NAME' => $record->getName(),
 		          'Client_id' => $record->getClient_id()->getvalue(),
               'Car_id' => $prItem->getElement()->getid(),
-		          //'CAR' => $prItem->getElement()->getName(),
-              'CAR' => '<a href="javascript:void(0)" onclick="openFormPopup('.$prItem->getElement()->getid().')" class="recall">'.$prItem->getElement()->getName().'</a>',
-              //'CAR' => '<a href="javascript:void(0)" onclick="ajaxcontentload('.$prItem->getElement()->getid().')" class="recall">'.$prItem->getElement()->getName().'</a>',
+		          
+              'CAR' => '<a href="javascript:void(0)" onclick="openFormPopup('.htmlspecialcharsback($prItem->getElement()->getid()).')" class="recall">'.htmlspecialcharsback($prItem->getElement()->getName()).'</a>',
+              
               'MODEL' => $prItem->getElement()->getmodel_name()->getvalue(),
               'Year_prod' => $prItem->getElement()->getYear_prod()->getvalue(),
               'COLOR' => $prItem->getElement()->getColor()->getvalue(),
@@ -140,17 +147,15 @@ class OtusMyModuleComponent extends \CBitrixComponent
         }
       }   
 
-      
-        // Debug::writeToFile($list, 'list', "/local/app/Events/log_Iblock7.txt");
+ 
         return $list;
     }
-   
+    //Выпонение компонента
     public function executeComponent() {
 
         try
         {
             
-              
             $grid_id = self::GRID_ID;
             $grid_options = new GridOptions($grid_id);
  
@@ -174,8 +179,7 @@ class OtusMyModuleComponent extends \CBitrixComponent
 		             ;
 
 	             $nav->initFromUri();
-               
-            //Debug::writeToFile($this->arParams , '$arParams', "/local/app/Events/log_Iblock3.txt");
+     
              if (isset($this->arParams['clientId'])) {
                 
                $clientId = $this->arParams['clientId'];
@@ -194,7 +198,7 @@ class OtusMyModuleComponent extends \CBitrixComponent
             $this->arResult['GRID_ID'] = $grid_id;
             $this->arResult['GRID_FILTER'] = $grid_filter;
             $this->arResult['GRID_COLUMNS'] = $this->getGridColumns();
-            //$this->arResult['ROWS'] = $grid_rows;
+    
             //$this->arResult['ROWS'] = $this->getList($clientId); 
             $this->arResult['ROWS'] = $this->getList_multiply($clientId); 
 

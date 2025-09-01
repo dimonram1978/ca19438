@@ -23,7 +23,12 @@ class RandomCustom
              
         
     }*/
-
+     /**
+     * @param $kol
+     * @param $min
+     * @param $max
+     * @return array
+     */
     public static function generateIntegers($kol, $min, $max)
     {  
         $seans = curl_init($url);

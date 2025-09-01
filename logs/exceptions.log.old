@@ -1,1638 +1,4 @@
-OTUS -2025-08-20 00:09:01 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Models\RandomOrg\Random" not found (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:35
-#0: testAgent()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:09:26 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Models\RandomOrg\Random" not found (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:35
-#0: testAgent()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:09:57 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Models\RandomOrg\Random" not found (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:35
-#0: testAgent()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:11:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Models\RandomOrg\Random" not found (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:35
-#0: testAgent()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:12:58 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "use" (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:34
-#0: include_once
-	/home/c/ca19438/public_html/bitrix/modules/main/include.php:140
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/include/prolog_admin_before.php:39
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:55
-#3: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:13:37 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "use" (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:34
-#0: include_once
-	/home/c/ca19438/public_html/bitrix/modules/main/include.php:140
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/include/prolog_before.php:19
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/public/session.php:8
-#3: require(string)
-	/home/c/ca19438/public_html/bitrix/tools/public_session.php:1
-----------
-
-OTUS -2025-08-20 00:14:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "RandomOrg\Random" not found (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:37
-#0: testAgent()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:15:17 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "use" (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:36
-#0: include_once
-	/home/c/ca19438/public_html/bitrix/modules/main/include.php:140
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/include/prolog_admin_before.php:39
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:55
-#3: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:15:34 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Models\RandomOrg\Random" not found (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:37
-#0: testAgent()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:16:02 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Rand1\Random" not found (0)
-/home/c/ca19438/public_html/local/Agents/Agent1.php:37
-#0: testAgent()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 00:20:47 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Rand1\Random" not found (0)
-/home/c/ca19438/public_html/local/Agents/Agent2.php:11
-#0: testAgent2()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 15:50:36 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:76
-#1: OtusMyModuleComponent->getList(string)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:140
-#2: OtusMyModuleComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#5: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#6: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#7: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#8: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#9: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#10: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#11: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#12: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-20 15:50:49 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:76
-#1: OtusMyModuleComponent->getList(string)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:140
-#2: OtusMyModuleComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, boolean, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#5: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#6: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#7: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#8: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#9: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#10: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#11: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#12: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-20 17:15:52 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE` (IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE) for \Bitrix\Iblock\Elements\ElementGarage Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
-#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
-#2: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#3: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
-#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
-#5: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#6: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:16:36 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE` (IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE) for \Bitrix\Iblock\Elements\ElementGarage Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
-#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
-#2: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#3: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
-#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
-#5: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#6: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:21:55 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `CAR` (CAR) for \Bitrix\Iblock\Elements\ElementGarage Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
-#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:23:29 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "/", expecting end of file (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:23:38 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-Unterminated comment starting line 19 (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:25:22 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected variable "$record", expecting "," or ";" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:26:05 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-Unmatched '}' (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:33
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:26:25 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-Unmatched '}' (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:33
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:50:13 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "select", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:10
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:50:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "select", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:10
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 17:51:38 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "select", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:10
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 23:18:32 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#0: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 23:19:07 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
-#0: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 23:20:01 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `COLORS` (PROC_IDS_MULTI.ELEMENT.COLORS) for \Bitrix\Iblock\Elements\ElementPROC Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
-#5: Bitrix\Main\ORM\Query\Query->fetchCollection()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:13
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 23:22:40 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
-#0: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 23:22:48 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "\Bitrix\Iblock\Elements\ElementProceduresTable" not found (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/entity.php:123
-#0: Bitrix\Main\ORM\Entity::getInstanceDirect(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/entity.php:108
-#1: Bitrix\Main\ORM\Entity::getInstance(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/fields/relations/relation.php:83
-#2: Bitrix\Main\ORM\Fields\Relations\Relation->getRefEntity()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:241
-#3: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#4: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:860
-#5: Bitrix\Main\ORM\Query\Query->registerRuntimeField(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:4
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-20 23:23:16 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURE.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:01:22 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURE.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:03:35 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:05:25 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1052
-#5: Bitrix\Main\ORM\Query\Query->fetchCollection()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:05:42 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:05:55 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "PROCEDURES.NAME", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:14
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:06:04 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:18
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:08:34 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:16
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:10:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:14:25 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:15:00 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:18
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:15:52 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (PROCEDURES.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementProc Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1017
-#5: Bitrix\Main\ORM\Query\Query->fetchAll()
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:18
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:24:18 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `ELEMENT` (CAR.ELEMENT.*) for \Bitrix\Iblock\Elements\ElementCustomerCars Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
-#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#2: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#3: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
-#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
-#5: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#6: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:29:31 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "echo", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:16
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:29:49 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "echo" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:30:14 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:31:02 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:32:29 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Object of class Bitrix\Iblock\Elements\EO_IblockProperty94_Collection could not be converted to string (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#0: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:33:03 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getelement` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:35:16 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getcarid` for object `Bitrix\Iblock\Elements\EO_ElementGarage` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:36:09 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getElement` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:38:18 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "->", expecting identifier or variable or "{" or "$" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 00:46:44 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "=>" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:72
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 00:49:07 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "=>" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:73
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 00:49:46 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "=>" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:73
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 10:25:48 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "." (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:15
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:13:49 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "->", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:14:47 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "->", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:15:54 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (car_id.ELEMENT.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementCustomerCars Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
-#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:16:22 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `cars` (cars.*) for \Bitrix\Iblock\Elements\ElementGarage Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1153
-#1: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#2: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#3: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
-#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
-#5: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#6: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:16:52 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `DESCRIPTION` (CAR.DESCRIPTION) for \Bitrix\Iblock\Elements\ElementCustomerCars Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
-#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
-#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
-#3: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#4: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
-#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
-#6: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#7: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:17:30 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown field definition `IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE` (IBLOCK_ELEMENTS_ELEMENT_GARAGE_Client_id_VALUE) for \Bitrix\Iblock\Elements\ElementGarage Entity. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
-#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1381
-#1: Bitrix\Main\ORM\Query\Query->setFilterChains(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2479
-#2: Bitrix\Main\ORM\Query\Query->buildQuery()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
-#3: Bitrix\Main\ORM\Query\Query->exec()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
-#4: Bitrix\Main\ORM\Data\DataManager::getList(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
-#5: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#6: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:17:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getcarid` for object `Bitrix\Iblock\Elements\EO_ElementGarage` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:18
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:20:41 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getAll` for object `Bitrix\Iblock\Elements\EO_ElementCustomerCars` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:18
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:22:25 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getAll` for object `Bitrix\Iblock\Elements\EO_ElementCustomerCars` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:18
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:23:39 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Class "Bitrix\Iblock\Elements\ElementDoctorsTable" not found (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
-#0: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:25:07 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getcarid` for object `Bitrix\Iblock\Elements\EO_ElementGarage` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:25:45 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown property `getName` for object `Bitrix\Iblock\Elements\EO_IblockProperty94` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:896
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__get(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:26:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getName` for object `Bitrix\Iblock\Elements\EO_IblockProperty94` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:26:33 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
-IblockProperty94 Entity has no `CAR_ID` field. (100)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/entity.php:573
-#0: Bitrix\Main\ORM\Entity->getField(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:969
-#1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:717
-#2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:19
-#3: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#4: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:27:33 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getAll` for object `Bitrix\Iblock\Elements\EO_ElementCustomerCars` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:31:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "}", expecting "," or ";" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:23
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:31:27 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Object of class Bitrix\Iblock\Elements\EO_IblockProperty94 could not be converted to string (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:18
-#0: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 13:32:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getName` for object `Bitrix\Iblock\Elements\EO_IblockProperty94` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
-#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:18
-#1: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#2: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 14:48:46 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token ";", expecting ")" (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:24
-#0: require_once
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 14:49:25 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Call to a member function get() on null (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#0: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 14:49:44 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
-Call to a member function get() on null (0)
-/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:17
-#0: eval
-	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
-#1: require_once(string)
-	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
-----------
-
-OTUS -2025-08-21 15:33:09 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "filter", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:98
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 15:34:37 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "filter", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:98
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 15:35:50 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "filter", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:98
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 15:38:05 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "filter", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:98
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 15:40:03 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "filter", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:98
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 15:43:07 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "filter", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:98
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 15:45:35 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "filter", expecting "]" (0)
-/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/class.php:98
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
-#3: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#4: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#5: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#6: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#7: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:199
-#8: UIPageSliderWrapperComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#9: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#10: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/lazyload.ajax.php:64
-----------
-
-OTUS -2025-08-21 15:49:40 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:120
-#1: MashinesViewsComponent->getList(integer, string)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:167
-#2: MashinesViewsComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:71
-----------
-
-OTUS -2025-08-21 15:54:13 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:120
-#1: MashinesViewsComponent->getList(integer, string)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:167
-#2: MashinesViewsComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:71
-----------
-
-OTUS -2025-08-21 15:55:50 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:120
-#1: MashinesViewsComponent->getList(integer, string)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:167
-#2: MashinesViewsComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:71
-----------
-
-OTUS -2025-08-21 15:56:05 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:120
-#1: MashinesViewsComponent->getList(integer, string)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:167
-#2: MashinesViewsComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:71
-----------
-
-OTUS -2025-08-21 15:58:05 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:120
-#1: MashinesViewsComponent->getList(integer, string)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:167
-#2: MashinesViewsComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:71
-----------
-
-OTUS -2025-08-21 17:36:35 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:120
-#1: MashinesViewsComponent->getList(integer, string)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:167
-#2: MashinesViewsComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:71
-----------
-
-OTUS -2025-08-21 17:36:40 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
-Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_IblockProperty94_Collection` (0)
-/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/collection.php:643
-#0: Bitrix\Main\ORM\Objectify\Collection->__call(string, array)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:120
-#1: MashinesViewsComponent->getList(integer, string)
-	/home/c/ca19438/public_html/local/components/otus/garage.table/class.php:167
-#2: MashinesViewsComponent->executeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
-#3: CBitrixComponent->includeComponent(string, array, NULL, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#4: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:71
-----------
-
-OTUS -2025-08-21 17:38:15 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected single-quoted string "filter", expecting "]" (0)
-/home/c/ca19438/public_html/local/components/otus/base.grid/class.php:98
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:73
-----------
-
-OTUS -2025-08-21 17:39:14 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "public" (0)
-/home/c/ca19438/public_html/local/components/otus/base.grid/class.php:144
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:73
-----------
-
-OTUS -2025-08-21 17:40:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "public" (0)
-/home/c/ca19438/public_html/local/components/otus/base.grid/class.php:144
-#0: CBitrixComponent->__getClassForPath(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:477
-#1: CBitrixComponent->initComponent(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1177
-#2: CAllMain->IncludeComponent(string, string, array)
-	/home/c/ca19438/public_html/table-otus/index.php:73
-----------
-
-OTUS -2025-08-21 18:12:13 - Host: ca19438.tw1.ru - UNKNOWN - [TypeError] 
-Unsupported operand types: null + string (0)
-/home/c/ca19438/public_html/bitrix/activities/bitrix/codeactivity/codeactivity.php(25) : eval()'d code:18
-#0: eval
-	/home/c/ca19438/public_html/bitrix/activities/bitrix/codeactivity/codeactivity.php:25
-#1: CBPCodeActivity->execute()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:546
-#2: CBPWorkflow->runExecuteActivityOperation(object)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:514
-#3: CBPWorkflow->runQueuedItem(object, integer, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:492
-#4: CBPWorkflow->runStep()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:473
-#5: CBPWorkflow->runQueue()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:240
-#6: CBPWorkflow->run()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:222
-#7: CBPWorkflow->resume()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:300
-#8: CBPWorkflow->sendExternalEvent(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/runtime.php:489
-#9: CBPRuntime::sendExternalEvent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/activities/bitrix/approveactivity/approveactivity.php:997
-#10: CBPApproveActivity::PostTaskForm(array, integer, array, array, string, integer)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/activity.php:1403
-#11: CBPActivity::callStaticMethod(string, string, array)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/document.php:647
-#12: CBPDocument::postTaskForm(array, integer, array, array)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/lib/Api/Service/TaskService.php:209
-#13: Bitrix\Bizproc\Api\Service\TaskService->doTask(object)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/lib/controller/task.php:103
-#14: Bitrix\Bizproc\Controller\Task->doAction(integer, array)
-	
-#15: ReflectionMethod->invokeArgs(object, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:211
-#16: Bitrix\Main\Engine\AutoWire\Binder->invoke()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/engine/action.php:117
-#17: Bitrix\Main\Engine\Action->runWithSourceParametersList()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/engine/controller.php:427
-#18: Bitrix\Main\Engine\Controller->run(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:141
-#19: Bitrix\Main\HttpApplication->runController(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:108
-#20: Bitrix\Main\HttpApplication->run()
-	/home/c/ca19438/public_html/bitrix/modules/main/services/ajax.php:35
-#21: require(string)
-	/home/c/ca19438/public_html/bitrix/services/main/ajax.php:1
-----------
-
-OTUS -2025-08-21 18:19:02 - Host: ca19438.tw1.ru - UNKNOWN - [TypeError] 
-Unsupported operand types: null + string (0)
-/home/c/ca19438/public_html/bitrix/activities/bitrix/codeactivity/codeactivity.php(25) : eval()'d code:18
-#0: eval
-	/home/c/ca19438/public_html/bitrix/activities/bitrix/codeactivity/codeactivity.php:25
-#1: CBPCodeActivity->execute()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:546
-#2: CBPWorkflow->runExecuteActivityOperation(object)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:514
-#3: CBPWorkflow->runQueuedItem(object, integer, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:492
-#4: CBPWorkflow->runStep()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:473
-#5: CBPWorkflow->runQueue()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:240
-#6: CBPWorkflow->run()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:222
-#7: CBPWorkflow->resume()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:300
-#8: CBPWorkflow->sendExternalEvent(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/runtime.php:489
-#9: CBPRuntime::sendExternalEvent(string, string, array)
-	/home/c/ca19438/public_html/bitrix/activities/bitrix/approveactivity/approveactivity.php:997
-#10: CBPApproveActivity::PostTaskForm(array, integer, array, array, string, integer)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/activity.php:1403
-#11: CBPActivity::callStaticMethod(string, string, array)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/document.php:647
-#12: CBPDocument::postTaskForm(array, integer, array, array)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/lib/Api/Service/TaskService.php:209
-#13: Bitrix\Bizproc\Api\Service\TaskService->doTask(object)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/lib/controller/task.php:103
-#14: Bitrix\Bizproc\Controller\Task->doAction(integer, array)
-	
-#15: ReflectionMethod->invokeArgs(object, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/engine/autowire/binder.php:211
-#16: Bitrix\Main\Engine\AutoWire\Binder->invoke()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/engine/action.php:117
-#17: Bitrix\Main\Engine\Action->runWithSourceParametersList()
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/engine/controller.php:427
-#18: Bitrix\Main\Engine\Controller->run(string, array)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:141
-#19: Bitrix\Main\HttpApplication->runController(object, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:108
-#20: Bitrix\Main\HttpApplication->run()
-	/home/c/ca19438/public_html/bitrix/modules/main/services/ajax.php:35
-#21: require(string)
-	/home/c/ca19438/public_html/bitrix/services/main/ajax.php:1
-----------
-
-OTUS -2025-08-21 18:33:36 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-syntax error, unexpected token "*", expecting end of file (0)
-/home/c/ca19438/public_html/bitrix/activities/bitrix/codeactivity/codeactivity.php(25) : eval()'d code:19
-#0: CBPCodeActivity->execute()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:546
-#1: CBPWorkflow->runExecuteActivityOperation(object)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:514
-#2: CBPWorkflow->runQueuedItem(object, integer, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:492
-#3: CBPWorkflow->runStep()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:473
-#4: CBPWorkflow->runQueue()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:240
-#5: CBPWorkflow->run()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:208
-#6: CBPWorkflow->start()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/document.php:347
-#7: CBPDocument::startWorkflow(integer, array, array, array, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/lib/Api/Service/WorkflowService.php:67
-#8: Bitrix\Bizproc\Api\Service\WorkflowService->startWorkflow(object)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists.element.edit/component.php:862
-#9: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
-#10: CBitrixComponent->__includeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
-#11: CBitrixComponent->includeComponent(string, array, object, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#12: CAllMain->IncludeComponent(string, string, array, object)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
-#13: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#14: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#15: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#16: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#17: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists/component.php:355
-#18: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
-#19: CBitrixComponent->__includeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
-#20: CBitrixComponent->includeComponent(string, array, boolean, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#21: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/services/lists/index.php:27
-#22: include_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
-#23: include_once(string)
-	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
-----------
-
-OTUS -2025-08-21 18:54:39 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-Unclosed '{' on line 7 does not match ')' (0)
-/home/c/ca19438/public_html/bitrix/activities/bitrix/codeactivity/codeactivity.php(25) : eval()'d code:8
-#0: CBPCodeActivity->execute()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:546
-#1: CBPWorkflow->runExecuteActivityOperation(object)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:514
-#2: CBPWorkflow->runQueuedItem(object, integer, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:492
-#3: CBPWorkflow->runStep()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:473
-#4: CBPWorkflow->runQueue()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:240
-#5: CBPWorkflow->run()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:208
-#6: CBPWorkflow->start()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/document.php:347
-#7: CBPDocument::startWorkflow(integer, array, array, array, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/lib/Api/Service/WorkflowService.php:67
-#8: Bitrix\Bizproc\Api\Service\WorkflowService->startWorkflow(object)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists.element.edit/component.php:862
-#9: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
-#10: CBitrixComponent->__includeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
-#11: CBitrixComponent->includeComponent(string, array, object, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#12: CAllMain->IncludeComponent(string, string, array, object)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
-#13: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#14: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#15: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#16: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#17: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists/component.php:355
-#18: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
-#19: CBitrixComponent->__includeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
-#20: CBitrixComponent->includeComponent(string, array, boolean, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#21: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/services/lists/index.php:27
-#22: include_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
-#23: include_once(string)
-	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
-----------
-
-OTUS -2025-08-21 18:56:44 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
-Unclosed '{' on line 7 does not match ')' (0)
-/home/c/ca19438/public_html/bitrix/activities/bitrix/codeactivity/codeactivity.php(25) : eval()'d code:8
-#0: CBPCodeActivity->execute()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:546
-#1: CBPWorkflow->runExecuteActivityOperation(object)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:514
-#2: CBPWorkflow->runQueuedItem(object, integer, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:492
-#3: CBPWorkflow->runStep()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:473
-#4: CBPWorkflow->runQueue()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:240
-#5: CBPWorkflow->run()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/workflow.php:208
-#6: CBPWorkflow->start()
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/classes/general/document.php:347
-#7: CBPDocument::startWorkflow(integer, array, array, array, NULL)
-	/home/c/ca19438/public_html/bitrix/modules/bizproc/lib/Api/Service/WorkflowService.php:67
-#8: Bitrix\Bizproc\Api\Service\WorkflowService->startWorkflow(object)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists.element.edit/component.php:862
-#9: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
-#10: CBitrixComponent->__includeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
-#11: CBitrixComponent->includeComponent(string, array, object, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#12: CAllMain->IncludeComponent(string, string, array, object)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists/templates/.default/list_element_edit.php:2
-#13: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
-#14: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
-#15: CBitrixComponentTemplate->IncludeTemplate(array)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
-#16: CBitrixComponent->showComponentTemplate()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
-#17: CBitrixComponent->includeComponentTemplate(string)
-	/home/c/ca19438/public_html/bitrix/components/bitrix/lists/component.php:355
-#18: include(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
-#19: CBitrixComponent->__includeComponent()
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
-#20: CBitrixComponent->includeComponent(string, array, boolean, boolean)
-	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
-#21: CAllMain->IncludeComponent(string, string, array, boolean)
-	/home/c/ca19438/public_html/services/lists/index.php:27
-#22: include_once(string)
-	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
-#23: include_once(string)
-	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
-----------
-
-OTUS -2025-08-21 18:58:56 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+OTUS -2025-08-21 19:00:45 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
 Unclosed '{' on line 6 does not match ')' (0)
 /home/c/ca19438/public_html/bitrix/activities/bitrix/codeactivity/codeactivity.php(25) : eval()'d code:7
 #0: CBPCodeActivity->execute()
@@ -1682,6 +48,1615 @@ Unclosed '{' on line 6 does not match ')' (0)
 #22: include_once(string)
 	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
 #23: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-08-22 14:27:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+Unclosed '[' on line 8 does not match ')' (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:9
+#0: require_once
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:28:28 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function call() on null (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:16
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:37:48 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "CRest" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:38:02 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "CRest" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:43:10 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/home/c/ca19438/public_htmlserver-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:49:20 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required './server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:49:31 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '../server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:49:50 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/../public_html/server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:50:10 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/../../public_html/server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:50:22 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '../public_html/server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:57:33 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required 'server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:57:41 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 14:57:48 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '../server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 15:00:00 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '../public_html/server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 15:00:06 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/public_html/server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 15:05:42 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/home/c/ca19438/public_html/bitrix/modules/main/admin./../public_html/server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 15:05:57 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Failed opening required '/home/c/ca19438/public_html/bitrix/modules/main/admin./server-app-deals/crest.php' (include_path='.:/opt/php81/share/pear') (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 15:07:45 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected single-quoted string "/server-app-deals/crest.php" (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: require_once
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 15:07:54 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected string content ";" (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#0: require_once
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 17:25:15 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected variable "$arLoadProductArray" (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
+#0: require_once
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 18:28:56 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+CBPDocument::terminateWorkflow(): Argument #3 ($arErrors) cannot be passed by reference (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:4
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 18:36:36 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected identifier "a88a640a5ec4", expecting ")" (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: require_once
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 18:56:11 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CIBlockElement" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:126
+#0: Events\CrmHandler::productChange(object)
+	
+#1: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/event.php:162
+#5: Bitrix\Main\ORM\Event->send()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1871
+#6: Bitrix\Main\ORM\Data\DataManager::callOnAfterUpdateEvent(object, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1362
+#7: Bitrix\Main\ORM\Data\DataManager::update(array, array)
+	/home/c/ca19438/public_html/local/Agents/Agent1.php:50
+#8: testAgent()
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#9: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#10: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-22 19:01:45 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function GetID() on null (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:131
+#0: Events\CrmHandler::productChange(object)
+	
+#1: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/event.php:162
+#5: Bitrix\Main\ORM\Event->send()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1871
+#6: Bitrix\Main\ORM\Data\DataManager::callOnAfterUpdateEvent(object, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1362
+#7: Bitrix\Main\ORM\Data\DataManager::update(array, array)
+	/home/c/ca19438/public_html/local/Agents/Agent1.php:50
+#8: testAgent()
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#9: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#10: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-23 12:01:12 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Error in agent testAgent();. (0)
+/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:516
+#0: CAllAgent::ExecuteAgents()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:357
+#1: CAllAgent::CheckAgents()
+	
+#2: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:3702
+#6: CAllMain::FinalActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/epilog_after.php:61
+#7: require(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/epilog.php:3
+#8: require_once(string)
+	/home/c/ca19438/public_html/bitrix/footer.php:4
+#9: require(string)
+	/home/c/ca19438/public_html/table-otus/index.php:115
+----------
+Previous exception: [Error] 
+Call to a member function GetID() on null (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:131
+#0: Events\CrmHandler::productChange(object)
+	
+#1: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/event.php:162
+#5: Bitrix\Main\ORM\Event->send()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1871
+#6: Bitrix\Main\ORM\Data\DataManager::callOnAfterUpdateEvent(object, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1362
+#7: Bitrix\Main\ORM\Data\DataManager::update(array, array)
+	/home/c/ca19438/public_html/local/Agents/Agent1.php:50
+#8: testAgent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#9: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:508
+#10: CAllAgent::ExecuteAgents()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:357
+#11: CAllAgent::CheckAgents()
+	
+#12: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:845
+#13: Bitrix\Main\Application->runBackgroundJobs()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:380
+#14: Bitrix\Main\Application->terminate(integer)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:332
+#15: Bitrix\Main\Application->end()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:3702
+#16: CAllMain::FinalActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/epilog_after.php:61
+#17: require(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/epilog.php:3
+#18: require_once(string)
+	/home/c/ca19438/public_html/bitrix/footer.php:4
+#19: require(string)
+	/home/c/ca19438/public_html/table-otus/index.php:115
+----------
+
+OTUS -2025-08-23 12:18:16 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Error in agent testAgent();. (0)
+/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:516
+#0: CAllAgent::ExecuteAgents()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:357
+#1: CAllAgent::CheckAgents()
+	
+#2: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end(integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:172
+#6: Bitrix\Main\HttpApplication->finalizeControllerResult(object, array, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:150
+#7: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#8: Bitrix\Main\HttpApplication->run()
+	/home/c/ca19438/public_html/bitrix/modules/main/services/ajax.php:35
+#9: require(string)
+	/home/c/ca19438/public_html/bitrix/services/main/ajax.php:1
+----------
+Previous exception: [Error] 
+Call to a member function GetID() on null (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:131
+#0: Events\CrmHandler::productChange(object)
+	
+#1: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/event.php:162
+#5: Bitrix\Main\ORM\Event->send()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1871
+#6: Bitrix\Main\ORM\Data\DataManager::callOnAfterUpdateEvent(object, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1362
+#7: Bitrix\Main\ORM\Data\DataManager::update(array, array)
+	/home/c/ca19438/public_html/local/Agents/Agent1.php:50
+#8: testAgent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#9: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:508
+#10: CAllAgent::ExecuteAgents()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:357
+#11: CAllAgent::CheckAgents()
+	
+#12: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:845
+#13: Bitrix\Main\Application->runBackgroundJobs()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:380
+#14: Bitrix\Main\Application->terminate(integer)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:332
+#15: Bitrix\Main\Application->end(integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:172
+#16: Bitrix\Main\HttpApplication->finalizeControllerResult(object, array, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:150
+#17: Bitrix\Main\HttpApplication->runController(object, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/httpapplication.php:108
+#18: Bitrix\Main\HttpApplication->run()
+	/home/c/ca19438/public_html/bitrix/modules/main/services/ajax.php:35
+#19: require(string)
+	/home/c/ca19438/public_html/bitrix/services/main/ajax.php:1
+----------
+
+OTUS -2025-08-23 12:31:35 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\SystemException] 
+Error in agent testAgent();. (0)
+/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:516
+#0: CAllAgent::ExecuteAgents()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:357
+#1: CAllAgent::CheckAgents()
+	
+#2: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:845
+#3: Bitrix\Main\Application->runBackgroundJobs()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:380
+#4: Bitrix\Main\Application->terminate(integer)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:332
+#5: Bitrix\Main\Application->end()
+	/home/c/ca19438/public_html/bitrix/modules/main/public/session.php:35
+#6: require(string)
+	/home/c/ca19438/public_html/bitrix/tools/public_session.php:1
+----------
+Previous exception: [Error] 
+Call to a member function GetID() on null (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:131
+#0: Events\CrmHandler::productChange(object)
+	
+#1: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/event.php:162
+#5: Bitrix\Main\ORM\Event->send()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1871
+#6: Bitrix\Main\ORM\Data\DataManager::callOnAfterUpdateEvent(object, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1362
+#7: Bitrix\Main\ORM\Data\DataManager::update(array, array)
+	/home/c/ca19438/public_html/local/Agents/Agent1.php:50
+#8: testAgent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php(508) : eval()'d code:1
+#9: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:508
+#10: CAllAgent::ExecuteAgents()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/agent.php:357
+#11: CAllAgent::CheckAgents()
+	
+#12: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:845
+#13: Bitrix\Main\Application->runBackgroundJobs()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:380
+#14: Bitrix\Main\Application->terminate(integer)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/application.php:332
+#15: Bitrix\Main\Application->end()
+	/home/c/ca19438/public_html/bitrix/modules/main/public/session.php:35
+#16: require(string)
+	/home/c/ca19438/public_html/bitrix/tools/public_session.php:1
+----------
+
+OTUS -2025-08-23 12:33:58 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\CUser" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:107
+#0: Events\CrmHandler::productChange(object)
+	
+#1: call_user_func_array(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:445
+#2: Bitrix\Main\EventManager->sendToEventHandler(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/eventmanager.php:381
+#3: Bitrix\Main\EventManager->send(object)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:142
+#4: Bitrix\Main\Event->send(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/event.php:162
+#5: Bitrix\Main\ORM\Event->send()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1871
+#6: Bitrix\Main\ORM\Data\DataManager::callOnAfterUpdateEvent(object, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:1362
+#7: Bitrix\Main\ORM\Data\DataManager::update(array, array)
+	/home/c/ca19438/public_html/local/Agents/Agent1.php:50
+#8: testAgent()
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:1
+#9: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#10: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-25 11:00:40 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Events\CrmHandler::MyonElementBeforeAdd(): Argument #1 ($event) must be of type Bitrix\Main\Event, array given, called in /home/c/ca19438/public_html/bitrix/modules/main/tools.php on line 5260 (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:171
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-25 11:05:34 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Events\CrmHandler::MyonElementBeforeAdd(): Argument #1 ($event) must be of type Bitrix\Main\Event, array given, called in /home/c/ca19438/public_html/bitrix/modules/main/tools.php on line 5260 (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:171
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-25 11:07:55 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+Events\CrmHandler::MyonElementBeforeAdd(): Argument #1 ($event) must be of type Bitrix\Main\Event, array given, called in /home/c/ca19438/public_html/bitrix/modules/main/tools.php on line 5260 (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:171
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-25 13:13:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "UserTypes\CUserTypeUserMashines" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+#1: CAllIBlockProperty::GetUserType(string)
+	/home/c/ca19438/public_html/bitrix/modules/iblock/admin/iblock_list_admin.php:343
+#2: require(string)
+	/home/c/ca19438/public_html/bitrix/admin/iblock_list_admin.php:1
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "/", expecting ")" (0)
+/home/c/ca19438/public_html/local/app/UserTypes/CUserTypeUserMashines.php:24
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/iblock/classes/general/iblockproperty.php:1323
+#2: CAllIBlockProperty::GetUserType(string)
+	/home/c/ca19438/public_html/bitrix/modules/iblock/admin/iblock_list_admin.php:343
+#3: require(string)
+	/home/c/ca19438/public_html/bitrix/admin/iblock_list_admin.php:1
+----------
+
+OTUS -2025-08-25 15:37:52 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Crm\DealTable" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:3
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-25 18:29:24 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown field definition `OPPURTUNITY` (OPPURTUNITY) for \Bitrix\Crm\Deal Entity. (100)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/chain.php:346
+#0: Bitrix\Main\ORM\Query\Chain::getChainByDefinition(object, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:3509
+#1: Bitrix\Main\ORM\Query\Query->getRegisteredChain(string, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:1231
+#2: Bitrix\Main\ORM\Query\Query->addToSelectChain(string, NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:2476
+#3: Bitrix\Main\ORM\Query\Query->buildQuery()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/query/query.php:942
+#4: Bitrix\Main\ORM\Query\Query->exec()
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:503
+#5: Bitrix\Main\ORM\Data\DataManager::getList(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
+#6: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#7: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-25 18:38:51 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Non-static method Bitrix\Main\ORM\Query\Result::getSelectedRowsCount() cannot be called statically (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:9
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-26 09:42:40 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getOPPORTUNITY` for object `Bitrix\Crm\EO_Deal` (0)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:13
+#1: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#2: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-26 09:43:13 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getOPPORTUNITY` for object `Bitrix\Crm\EO_Deal` (0)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:13
+#1: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#2: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-26 09:44:36 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getvalue() on float (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:13
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-26 09:44:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getCREATEDBYID` for object `Bitrix\Crm\EO_Deal` (0)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:14
+#1: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#2: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-26 09:45:27 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+Deal Entity has no `CREATEDBYID` field. (100)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/entity.php:573
+#0: Bitrix\Main\ORM\Entity->getField(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:969
+#1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:717
+#2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:14
+#3: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#4: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-26 09:45:47 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+Deal Entity has no `STAGEID` field. (100)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/entity.php:573
+#0: Bitrix\Main\ORM\Entity->getField(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:969
+#1: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:717
+#2: Bitrix\Main\ORM\Objectify\EntityObject->get(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:15
+#3: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#4: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-26 09:47:52 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getid() on array (0)
+/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/Mashines_history.php:26
+----------
+
+OTUS -2025-08-26 09:48:26 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getid() on array (0)
+/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/Mashines_history.php:26
+----------
+
+OTUS -2025-08-26 09:50:39 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getid() on array (0)
+/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/Mashines_history.php:26
+----------
+
+OTUS -2025-08-26 09:53:30 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getid() on array (0)
+/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/Mashines_history.php:26
+----------
+
+OTUS -2025-08-26 09:57:10 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getid() on array (0)
+/home/c/ca19438/public_html/bitrix/components/otus.mymodule/base.grid/Mashines_history.php:26
+----------
+
+OTUS -2025-08-26 14:26:03 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token "=>", expecting "]" (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:6
+#0: require_once
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-26 15:14:56 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\CrmHandler" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#1: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#3: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#4: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#5: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#6: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#7: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#8: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "else" (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:181
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-26 15:22:27 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\CrmHandler" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#1: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#3: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#4: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#5: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#6: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#7: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#8: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "use" (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:183
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-26 15:25:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\CrmHandler" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#1: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#3: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#4: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#5: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#6: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#7: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#8: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "use" (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:183
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-26 18:05:56 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Object of class CMain could not be converted to string (0)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/diag/debug.php:105
+#0: Bitrix\Main\Diag\Debug::writeToFile(object, string, string)
+	/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:183
+#1: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#2: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#5: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#6: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#7: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#8: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#9: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#10: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-26 18:14:49 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Object of class CMain could not be converted to string (0)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/diag/debug.php:105
+#0: Bitrix\Main\Diag\Debug::writeToFile(object, string, string)
+	/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:183
+#1: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#2: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#4: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#5: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#6: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#7: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#8: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#9: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#10: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-26 18:40:13 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Non-static method CAllMain::ThrowException() cannot be called statically (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:180
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-26 18:46:32 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method CMain::TThrowException() (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:180
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-29 23:20:22 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\CrmHandler" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#1: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#3: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#4: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#5: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#6: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#7: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#8: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "*" (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:188
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-29 23:21:51 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\Application" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:188
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-29 23:30:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Events\Application" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:188
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-29 23:31:31 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Application" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:188
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-29 23:32:51 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Application" not found (0)
+/home/c/ca19438/public_html/local/app/Events/CrmHandler.php:188
+#0: Events\CrmHandler::MyonElementBeforeAdd(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent/WithCancel/Update.php:29
+#2: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent\WithCancel\Update->executeEvent(array, object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation/Action/Compatible/SendEvent.php:36
+#3: Bitrix\Crm\Service\Operation\Action\Compatible\SendEvent->process(object)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1073
+#4: Bitrix\Crm\Service\Operation->processActions(string)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:1450
+#5: Bitrix\Crm\Service\Operation->preSaveChecks()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/Service/Operation.php:130
+#6: Bitrix\Crm\Service\Operation->launch()
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter/operation.php:165
+#7: Bitrix\Crm\Entity\Compatibility\Adapter\Operation->doPerformAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/lib/entity/compatibility/adapter.php:139
+#8: Bitrix\Crm\Entity\Compatibility\Adapter->performAdd(array, array)
+	/home/c/ca19438/public_html/bitrix/modules/crm/classes/general/crm_deal.php:1765
+#9: CAllCrmDeal->Add(array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/crm.deal.details/ajax.php:912
+----------
+
+OTUS -2025-08-30 22:10:14 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\Lists\OriginalContactsDataTable" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-30 22:11:16 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\Lists\OriginalContactsDataTable" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-30 22:11:38 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\Lists\OriginalContactsDataTable" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-30 22:12:26 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\OriginalContactsDataTable" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-30 22:13:11 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\OriginalContactsDataTable" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-30 22:15:07 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\OriginalContactsDataTable" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:2
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-30 22:22:12 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\OriginalContactsDataTable" not found (0)
+/home/c/ca19438/public_html/table-otus/index2.php:9
+----------
+
+OTUS -2025-08-31 00:33:43 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Bitrix\Data\Cache" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php(135) : eval()'d code:5
+#0: eval
+	/home/c/ca19438/public_html/bitrix/modules/main/admin/php_command_line.php:135
+#1: require_once(string)
+	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
+----------
+
+OTUS -2025-08-31 00:55:02 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Rest\Events" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#2: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#3: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#4: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#5: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#6: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#14: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#19: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#20: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#21: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#22: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#23: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#26: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#30: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#31: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#32: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#34: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-08-31 00:59:32 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Rest\Events" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#2: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#3: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#4: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#5: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#6: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#14: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#19: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#20: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#21: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#22: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#23: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#26: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#30: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#31: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#32: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#34: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-08-31 01:01:25 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Rest\Events" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#2: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#3: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#4: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#5: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#6: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#14: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#19: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#20: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#21: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#22: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#23: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#26: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#30: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#31: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#32: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#34: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-08-31 01:07:10 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#2: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#3: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#4: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#5: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#6: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#14: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#19: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#20: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#21: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#22: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#23: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#26: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#30: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#31: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#32: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#34: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-08-31 01:09:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#2: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#3: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#4: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#5: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#6: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#14: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#19: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#20: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#21: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#22: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#23: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#26: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#30: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#31: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#32: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#34: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-08-31 01:22:09 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Rest\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_util.php:848
+#2: CRestUtil::getEventList()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/webhook.php:38
+#3: Bitrix\Rest\Preset\Data\Webhook::getList()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.grid/class.php:234
+#4: RestIntegrationGridComponent->processResultData()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.grid/class.php:370
+#5: RestIntegrationGridComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#6: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#8: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#14: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/list.php:24
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#18: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#19: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#20: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#21: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#22: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#23: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#24: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#25: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#26: include_once(string)
 	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
 ----------
 
