@@ -5,11 +5,30 @@ $APPLICATION->SetTitle("Компонент списка таблицы базы 
 
 use Bitrix\Main\Type;
 
-use Models\OriginalContactsDataTable;
+//use Models\OriginalContactsDataTable;
+use Models\BookTable as Books;
+use Models\AuthorTable as Authors;
+    use Models\PublisherTable as Publishers;
+    use Models\BookPublisherTable as BookPublisher;
+    use Models\Lists\ShopsPropertyValuesTable as ShopsTable;
+    use Models\Lists\PrintinghousePropertyValuesTable as PrintinghouseTable;
 //
-    $arF = ['ENTITY_ID' => 'CONTACT', 'ELEMENT_ID' => 17, 'VALUE' => 444];
-    OriginalContactsDataTable::add($arF);
+  //  $arF = ['ENTITY_ID' => 'CONTACT', 'ELEMENT_ID' => 17, 'VALUE' => 444];
+  $date = new Type\Date($_POST['publish_date'], '2000-01-28');
+    $arF = ['name' => 'Русские писатели XX века', 
+     'text' => 'Биографический словарь',
+     'publish_date' => $date,
+    'ISBN' => '5-85270-289-7',
+     'author_id' => 5,
+     'shops_id' => 53,
+     'printinghouse_id' => 1, 
+     'wikiprofile_id' => 1
+    ];
+ 
 
+   // Books::add($arF);
+$arr = Books::list();
+pr($arr);
 // use Models\Lists\CarsPropertyValuesTable as CarsTable;
 // use Models\HospitalClientsTable as Clients;
 

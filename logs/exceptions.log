@@ -61,3 +61,1576 @@ Class "DealTable" not found (0)
 	/home/c/ca19438/public_html/bitrix/admin/php_command_line.php:2
 ----------
 
+OTUS -2025-09-02 14:40:15 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\Event" not found (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:146
+#0: Models\BookTable::add(array)
+	/home/c/ca19438/public_html/table-otus/index2.php:27
+----------
+
+OTUS -2025-09-02 15:33:07 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+Mysql query error: (1048) Column 'shops_id' cannot be null (400)
+INSERT INTO `books`(`NAME`, `TEXT`, `PUBLISH_DATE`, `ISBN`, `AUTHOR_ID`, `SHOPS_ID`, `PRINTINGHOUSE_ID`) VALUES ('Механник3', 'Биографический словарь2', NULL, '', NULL, NULL, NULL)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/db/mysqlcommonconnection.php:415
+#0: Bitrix\Main\DB\MysqlCommonConnection->createQueryException(integer, string, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+#1: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/db/connection.php:324
+#2: Bitrix\Main\DB\Connection->query(string, NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/db/connection.php:373
+#3: Bitrix\Main\DB\Connection->queryExecute(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/db/connection.php:458
+#4: Bitrix\Main\DB\Connection->add(string, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/addstrategy/insert.php:25
+#5: Bitrix\Main\ORM\Data\AddStrategy\Insert->add(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:956
+#6: Bitrix\Main\ORM\Data\DataManager::sysAddInternal(object, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:879
+#7: Bitrix\Main\ORM\Data\DataManager::add(array)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:182
+#8: Models\BookTable::add(array)
+	/home/c/ca19438/public_html/data-manager/index.php:87
+----------
+
+OTUS -2025-09-02 15:35:06 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\DB\SqlQueryException] 
+Mysql query error: (1048) Column 'shops_id' cannot be null (400)
+INSERT INTO `books`(`NAME`, `TEXT`, `PUBLISH_DATE`, `ISBN`, `AUTHOR_ID`, `SHOPS_ID`, `PRINTINGHOUSE_ID`) VALUES ('Механник2', 'Биографический словарь2', '2000-01-02', '', NULL, NULL, NULL)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/db/mysqlcommonconnection.php:415
+#0: Bitrix\Main\DB\MysqlCommonConnection->createQueryException(integer, string, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/db/mysqliconnection.php:149
+#1: Bitrix\Main\DB\MysqliConnection->queryInternal(string, array, NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/db/connection.php:324
+#2: Bitrix\Main\DB\Connection->query(string, NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/db/connection.php:373
+#3: Bitrix\Main\DB\Connection->queryExecute(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/db/connection.php:458
+#4: Bitrix\Main\DB\Connection->add(string, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/addstrategy/insert.php:25
+#5: Bitrix\Main\ORM\Data\AddStrategy\Insert->add(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:956
+#6: Bitrix\Main\ORM\Data\DataManager::sysAddInternal(object, array)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/data/datamanager.php:879
+#7: Bitrix\Main\ORM\Data\DataManager::add(array)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:182
+#8: Models\BookTable::add(array)
+	/home/c/ca19438/public_html/data-manager/index.php:87
+----------
+
+OTUS -2025-09-02 15:55:16 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#2: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#3: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#4: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#5: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#6: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#14: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#19: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#20: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#21: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#22: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#23: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#26: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#30: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#31: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#32: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#34: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "*" (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:88
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#2: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#3: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#4: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#5: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#6: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#7: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#8: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#10: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#15: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#16: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#17: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#19: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#20: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#21: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#22: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#23: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#24: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#25: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#26: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#27: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#28: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#29: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#30: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#31: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#32: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#33: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#34: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#36: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 15:56:01 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#2: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#3: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#4: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#5: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#6: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#14: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#19: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#20: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#21: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#22: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#23: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#26: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#30: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#31: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#32: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#34: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "*" (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:88
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#2: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#3: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#4: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#5: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#6: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#7: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#8: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#10: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#15: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#16: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#17: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#19: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#20: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#21: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#22: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#23: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#24: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#25: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#26: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#27: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#28: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#29: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#30: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#31: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#32: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#33: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#34: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#36: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 15:56:20 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "*" (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:88
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#2: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#3: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#4: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#8: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#9: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#12: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#14: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 15:56:26 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#2: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#3: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#4: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#5: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#6: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#7: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#9: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#10: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#11: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#12: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#13: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#14: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#15: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#16: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#17: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#19: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#20: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#21: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#22: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#23: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#24: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#25: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#26: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#27: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#28: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#29: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#30: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#31: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#32: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#33: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#34: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token "*" (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:88
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#2: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:44
+#3: Bitrix\Rest\Preset\Data\Rest::getAllBasicDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/lib/preset/data/rest.php:123
+#4: Bitrix\Rest\Preset\Data\Rest::getBaseMethod()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:130
+#5: RestIntegrationSelectComponent->getMethodAction()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:72
+#6: RestIntegrationSelectComponent->prepareResult()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.selector/class.php:118
+#7: RestIntegrationSelectComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#8: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/templates/.default/template.php:219
+#10: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#11: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#12: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#13: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#14: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.integration.edit/class.php:380
+#15: RestIntegrationEditComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#16: CBitrixComponent->includeComponent(string, array, object, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#17: CAllMain->IncludeComponent(string, string, array, object)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/content.php:29
+#18: include(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/templates/.default/template.php:286
+#19: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#20: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#21: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#22: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#23: CBitrixComponent->includeComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/ui.sidepanel.wrapper/class.php:181
+#24: UIPageSliderWrapperComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#25: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#26: CAllMain->IncludeComponent(string, string, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/templates/.default/edit.php:30
+#27: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:842
+#28: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component_template.php:951
+#29: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:791
+#30: CBitrixComponent->showComponentTemplate()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:731
+#31: CBitrixComponent->includeComponentTemplate(string)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.devops/class.php:145
+#32: RestDevOpsComponent->executeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:675
+#33: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#34: CAllMain->IncludeComponent(string, string, array, NULL)
+	/home/c/ca19438/public_html/devops/index.php:21
+#35: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#36: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 16:54:59 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\Type\Date" not found (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:151
+#0: Models\BookTable::add(array)
+	/home/c/ca19438/public_html/local/app/Events/RestEvents.php:71
+#1: Events\RestEvents::add(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#2: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#3: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#4: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#8: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#9: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#12: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#14: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 18:57:31 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\ArgumentTypeException] 
+The value of an argument 'parameter' must be of type array or closure, which returns array (100)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:62
+#0: Bitrix\Main\Event->setParameters(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:33
+#1: Bitrix\Main\Event->__construct(string, string, NULL)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:252
+#2: Models\BookTable::delete(string)
+	/home/c/ca19438/public_html/local/app/Events/RestEvents.php:150
+#3: Events\RestEvents::delete(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#4: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#5: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:00:17 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\ArgumentTypeException] 
+The value of an argument 'parameter' must be of type array or closure, which returns array (100)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:62
+#0: Bitrix\Main\Event->setParameters(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:33
+#1: Bitrix\Main\Event->__construct(string, string, NULL)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:252
+#2: Models\BookTable::delete(string)
+	/home/c/ca19438/public_html/local/app/Events/RestEvents.php:150
+#3: Events\RestEvents::delete(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#4: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#5: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:06:45 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\ArgumentTypeException] 
+The value of an argument 'parameter' must be of type array or closure, which returns array (100)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:62
+#0: Bitrix\Main\Event->setParameters(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:33
+#1: Bitrix\Main\Event->__construct(string, string, NULL)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:252
+#2: Models\BookTable::delete(string)
+	/home/c/ca19438/public_html/local/app/Events/RestEvents.php:150
+#3: Events\RestEvents::delete(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#4: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#5: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:07:03 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\ArgumentTypeException] 
+The value of an argument 'parameter' must be of type array or closure, which returns array (100)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:62
+#0: Bitrix\Main\Event->setParameters(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:33
+#1: Bitrix\Main\Event->__construct(string, string, NULL)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:252
+#2: Models\BookTable::delete(string)
+	/home/c/ca19438/public_html/local/app/Events/RestEvents.php:150
+#3: Events\RestEvents::delete(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#4: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#5: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:11:09 - Host: ca19438.tw1.ru - UNKNOWN - [Bitrix\Main\ArgumentTypeException] 
+The value of an argument 'parameter' must be of type array or closure, which returns array (100)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:62
+#0: Bitrix\Main\Event->setParameters(NULL)
+	/home/c/ca19438/public_html/bitrix/modules/main/lib/event.php:33
+#1: Bitrix\Main\Event->__construct(string, string, NULL)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:252
+#2: Models\BookTable::delete(string)
+	/home/c/ca19438/public_html/local/app/Events/RestEvents.php:150
+#3: Events\RestEvents::delete(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#4: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#5: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#6: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#7: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#8: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#9: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#10: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#11: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#12: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#13: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#14: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#15: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#16: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:11:42 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Main\ORM\Data\DeleteResult::getId() (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:153
+#0: Events\RestEvents::delete(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:13:17 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Main\ORM\Data\DeleteResult::getId() (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:153
+#0: Events\RestEvents::delete(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:22:03 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token ";", expecting ")" (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:147
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#2: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#3: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#4: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#8: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#9: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#12: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#14: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:23:55 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+call_user_func_array(): Argument #1 ($callback) must be a valid callback, class "Events\RestEvents" not found (0)
+/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#0: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#1: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+Previous exception: [ParseError] 
+syntax error, unexpected token ";", expecting ")" (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:147
+#0: {closure}(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/tools.php:5260
+#1: ExecuteModuleEventEx(array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest_provider.php:170
+#2: CRestProvider->getDescription()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:118
+#3: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#4: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#8: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#9: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#12: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#14: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 19:24:49 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Main\ORM\Data\DeleteResult::getId() (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:153
+#0: Events\RestEvents::delete(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-02 23:04:31 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token ";", expecting ")" (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:317
+#0: {closure}(string)
+	/home/c/ca19438/public_html/data-manager/index.php:247
+----------
+
+OTUS -2025-09-02 23:06:22 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ArgumentCountError] 
+Too few arguments to function Models\BookTable::list(), 0 passed in /home/c/ca19438/public_html/table-otus/index2.php on line 30 and exactly 1 expected (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:291
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:06:58 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Class "Models\Books" not found (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:294
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:09:11 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Main\Type\Date::getvalue() (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:317
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:10:21 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Main\Type\Date::getvalue() (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:317
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:10:22 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Bitrix\Main\Type\Date::getvalue() (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:317
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:14:05 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getvalue() on string (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:319
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:16:55 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getvalue` for object `Bitrix\Iblock\Elements\EO_ElementShops` (0)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:322
+#1: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:18:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:322
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:21:04 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on null (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:324
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:21:53 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Bitrix\Main\SystemException] 
+Unknown method `getPrintinghouse` for object `Bitrix\Iblock\Elements\EO_ElementShops` (0)
+/home/c/ca19438/public_html/bitrix/modules/main/lib/orm/objectify/entityobject.php:1367
+#0: Bitrix\Main\ORM\Objectify\EntityObject->__call(string, array)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:314
+#1: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:26:51 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [TypeError] 
+json_decode(): Argument #1 ($json) must be of type string, array given (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:333
+#0: json_decode(array, boolean)
+	/home/c/ca19438/public_html/local/app/Models/BookTable.php:333
+#1: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:32:18 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function Models\getName() (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:318
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:32:43 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function Models\getValue() (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:318
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:33:02 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getValue() on string (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:318
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:33:21 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getName() on string (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:318
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:34:11 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined function Models\string() (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:318
+#0: Models\BookTable::list()
+	/home/c/ca19438/public_html/table-otus/index2.php:30
+----------
+
+OTUS -2025-09-02 23:55:57 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isSuccess() on string (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:190
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:16:36 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isarray() on string (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:191
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:18:07 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected token ",", expecting ";" (0)
+/home/c/ca19438/public_html/local/app/Models/BookTable.php:333
+#0: {closure}(string)
+	/home/c/ca19438/public_html/local/app/Events/RestEvents.php:189
+#1: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#2: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#3: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#4: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#5: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#6: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#7: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#8: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#9: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#10: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#11: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#12: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#14: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:18:36 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isarray() on array (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:191
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:19:27 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isarray() on array (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:191
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:21:38 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function is_array() on array (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:191
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:22:19 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function is_array() on array (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:191
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:24:14 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function is_array() on array (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:191
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:26:11 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function is_array() on array (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:191
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:27:28 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function is_array() on array (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:191
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:40:08 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getErrorMessages() on string (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:203
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+
+OTUS -2025-09-03 00:40:51 - Host: ca19438.tw1.ru - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getErrorMessages() on string (0)
+/home/c/ca19438/public_html/local/app/Events/RestEvents.php:203
+#0: Events\RestEvents::list(array, integer, object)
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:274
+#1: CRestServer->processCall()
+	/home/c/ca19438/public_html/bitrix/modules/rest/classes/general/rest.php:138
+#2: CRestServer->process()
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.server/component.php:86
+#3: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#4: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#5: CBitrixComponent->includeComponent(string, array, NULL, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#6: CAllMain->IncludeComponent(string, string, array, NULL, array)
+	/home/c/ca19438/public_html/bitrix/components/bitrix/rest.provider/component.php:11
+#7: include(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:622
+#8: CBitrixComponent->__includeComponent()
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/component.php:699
+#9: CBitrixComponent->includeComponent(string, array, boolean, boolean)
+	/home/c/ca19438/public_html/bitrix/modules/main/classes/general/main.php:1188
+#10: CAllMain->IncludeComponent(string, string, array, boolean, array)
+	/home/c/ca19438/public_html/bitrix/modules/rest/services/rest/index.php:26
+#11: require(string)
+	/home/c/ca19438/public_html/bitrix/services/rest/index.php:1
+#12: include_once(string)
+	/home/c/ca19438/public_html/bitrix/modules/main/include/urlrewrite.php:128
+#13: include_once(string)
+	/home/c/ca19438/public_html/bitrix/urlrewrite.php:2
+----------
+

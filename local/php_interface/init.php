@@ -96,7 +96,7 @@ $eventManager->addEventHandler("crm","OnBeforeCrmDealAdd", ['Events\CrmHandler',
 //$eventManager->addEventHandler('catalog', '\Bitrix\Catalog\Product::onAfterAdd', ['Events\CrmHandler', 'productChange']);
 
 $eventManager->addEventHandler('catalog', '\Bitrix\Catalog\Product::onAfterUpdate', ['Events\CrmHandler', 'productChange']);
-//Rest методы
+ //Rest методы
 $eventManager->addEventHandler('rest', 'OnRestServiceBuildDescription', ['Events\RestEvents', 'OnRestServiceBuildDescriptionHandler']);
  
 //Агенты

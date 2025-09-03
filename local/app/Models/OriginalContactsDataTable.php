@@ -70,7 +70,7 @@ class OriginalContactsDataTable extends DataManager
     {
         file_put_contents($_SERVER['DOCUMENT_ROOT'].'/log1.txt', 'test1');
         file_put_contents($_SERVER['DOCUMENT_ROOT'].'/logOCD.txt', 'FIELDS: '.var_export($fields, true).PHP_EOL, FILE_APPEND);
-        /*$event = new Event("main", "OnBeforeOCDAdd", $fields);
+        $event = new Event("main", "OnBeforeOCDAdd", $fields);
         $event->send();
 
         if ($event->getResults())
@@ -89,6 +89,6 @@ class OriginalContactsDataTable extends DataManager
             }
         }
 
-        return parent::add($fields);*/
+        return parent::add($fields);
     }
 }
